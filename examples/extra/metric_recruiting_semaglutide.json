@@ -1,0 +1,146 @@
+{
+  "request": {
+    "query": "How many recruiting trials are there for semaglutide?",
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "metric",
+      "title": "Number of trials — Semaglutide · Recruiting",
+      "subtitle": null,
+      "encoding": {
+        "x": null,
+        "y": null,
+        "series": null,
+        "x2": null,
+        "label": {
+          "field": "cohort",
+          "type": "nominal",
+          "title": null,
+          "unit": null,
+          "sort": null,
+          "aggregate": null
+        },
+        "value": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of trials",
+          "unit": "trials",
+          "sort": null,
+          "aggregate": "sum"
+        },
+        "network": null,
+        "columns": null
+      },
+      "data": [
+        {
+          "cohort": "Semaglutide · Recruiting",
+          "trial_count": 168,
+          "citation_count": 168,
+          "citations": [
+            {
+              "nct_id": "NCT07653412",
+              "url": "https://clinicaltrials.gov/study/NCT07653412",
+              "title": "Precision Obesity Medicine: Genetic Prediction of Response to GLP-1/GIP Agonists.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.identificationModule.nctId",
+                  "text": "NCT07653412"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07513168",
+              "url": "https://clinicaltrials.gov/study/NCT07513168",
+              "title": "Low-Dose Semaglutide for Weight Loss in Obese Non-Diabetic Pakistani Adults",
+              "excerpts": [
+                {
+                  "field": "protocolSection.identificationModule.nctId",
+                  "text": "NCT07513168"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": {
+        "orientation": null,
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": null,
+        "bipartite": null
+      }
+    },
+    "meta": {
+      "query": "How many recruiting trials are there for semaglutide?",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "intervention": "semaglutide",
+        "statuses": [
+          "RECRUITING"
+        ]
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "count",
+        "rationale": "Count recruiting trials that list semaglutide as an intervention (statuses mapped to RECRUITING).",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "count",
+          "filters": {
+            "intervention": "semaglutide",
+            "statuses": [
+              "RECRUITING"
+            ]
+          },
+          "cohorts": [],
+          "top_n": 15,
+          "rationale": "Count recruiting trials that list semaglutide as an intervention (statuses mapped to RECRUITING)."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 4308,
+            "input_tokens": 2717,
+            "output_tokens": 318,
+            "reasoning_tokens": 64,
+            "confidence": "high",
+            "cost_usd": 0.000739
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Semaglutide · Recruiting",
+          "total_matching": 168,
+          "analyzed": 2,
+          "truncated": false,
+          "api_params": {
+            "query.intr": "semaglutide",
+            "filter.overallStatus": "RECRUITING"
+          }
+        }
+      ],
+      "counting_rule": "Exact number of trials matching the filters (API totalCount).",
+      "sort": null,
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [],
+      "notes": [
+        "trial_count is the API's exact totalCount; citations are a sample of matching trials"
+      ],
+      "generated_at": "2026-10-21T18:12:00+00:00",
+      "elapsed_ms": 4442,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

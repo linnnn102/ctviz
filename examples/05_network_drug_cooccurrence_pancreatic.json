@@ -1,0 +1,3060 @@
+{
+  "request": {
+    "query": "Which drugs frequently co-occur in combination studies for pancreatic cancer?",
+    "top_n": 12,
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "network_graph",
+      "title": "Drug co-occurrence network — Pancreatic cancer",
+      "subtitle": "Edge weight = number of trials in which both appear",
+      "encoding": {
+        "x": null,
+        "y": null,
+        "series": null,
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": {
+          "node_id": "id",
+          "node_label": "label",
+          "node_type": "type",
+          "node_size": "trial_count",
+          "edge_source": "source",
+          "edge_target": "target",
+          "edge_weight": "weight"
+        },
+        "columns": null
+      },
+      "data": {
+        "nodes": [
+          {
+            "id": "drug:gemcitabine",
+            "label": "Gemcitabine",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 767,
+            "citation_count": 767,
+            "citations": [
+              {
+                "nct_id": "NCT06076837",
+                "url": "https://clinicaltrials.gov/study/NCT06076837",
+                "title": "The Seven Trial: Exploiting the Unfolded Protein Response",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04115163",
+                "url": "https://clinicaltrials.gov/study/NCT04115163",
+                "title": "Biologically Optimized Infusion Schedule of Gemcitabine and Nab-Paclitaxel for the Treatment of Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:nab-paclitaxel",
+            "label": "Nab-paclitaxel",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 181,
+            "citation_count": 181,
+            "citations": [
+              {
+                "nct_id": "NCT04115163",
+                "url": "https://clinicaltrials.gov/study/NCT04115163",
+                "title": "Biologically Optimized Infusion Schedule of Gemcitabine and Nab-Paclitaxel for the Treatment of Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07578337",
+                "url": "https://clinicaltrials.gov/study/NCT07578337",
+                "title": "A Clinical Study Evaluating a New Treatment Strategy for Patients With Advanced Pancreatic Cancer Who Have Not Received Prior Treatment for Advanced Disease.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel (Abraxane)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:oxaliplatin",
+            "label": "Oxaliplatin",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 161,
+            "citation_count": 161,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:capecitabine",
+            "label": "Capecitabine",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 152,
+            "citation_count": 152,
+            "citations": [
+              {
+                "nct_id": "NCT00032175",
+                "url": "https://clinicaltrials.gov/study/NCT00032175",
+                "title": "Gemcitabine With or Without Capecitabine in Treating Patients With Locally Advanced or Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "capecitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04089150",
+                "url": "https://clinicaltrials.gov/study/NCT04089150",
+                "title": "MFOLFIRINOX And Stereotactic Radiotherapy (SBRT) for Pancreatic Cancer With High Risk and Locally Advanced Disease",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Gemcitabine + Capecitabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:fluorouracil",
+            "label": "Fluorouracil",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 117,
+            "citation_count": 117,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "fluorouracil"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:pembrolizumab",
+            "label": "Pembrolizumab",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 110,
+            "citation_count": 110,
+            "citations": [
+              {
+                "nct_id": "NCT05620134",
+                "url": "https://clinicaltrials.gov/study/NCT05620134",
+                "title": "Study of JK08 in Patients with Unresectable Locally Advanced or Metastatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07090499",
+                "url": "https://clinicaltrials.gov/study/NCT07090499",
+                "title": "A Study to Learn About the Study Medicine Called PF-08046876 in People With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:leucovorin",
+            "label": "Leucovorin",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 105,
+            "citation_count": 105,
+            "citations": [
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01926197",
+                "url": "https://clinicaltrials.gov/study/NCT01926197",
+                "title": "Phase 3 Study of FOLFIRINOX (mFFX) +/- SBRT in Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:irinotecan",
+            "label": "Irinotecan",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 101,
+            "citation_count": 101,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02324543",
+                "url": "https://clinicaltrials.gov/study/NCT02324543",
+                "title": "Study of Gemcitabine/Taxotere/Xeloda (GTX) in Combination With Cisplatin and Irinotecan in Subjects With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:cisplatin",
+            "label": "Cisplatin",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 78,
+            "citation_count": 78,
+            "citations": [
+              {
+                "nct_id": "NCT06076837",
+                "url": "https://clinicaltrials.gov/study/NCT06076837",
+                "title": "The Seven Trial: Exploiting the Unfolded Protein Response",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Cisplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06115499",
+                "url": "https://clinicaltrials.gov/study/NCT06115499",
+                "title": "The PLATINUM Trial: Optimizing Chemotherapy for the Second-Line Treatment of Metastatic BRCA1/2 or PALB2-Associated Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:bevacizumab",
+            "label": "Bevacizumab",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 66,
+            "citation_count": 66,
+            "citations": [
+              {
+                "nct_id": "NCT06229340",
+                "url": "https://clinicaltrials.gov/study/NCT06229340",
+                "title": "Leflunomide or Combination of MEK Inhibitor and Hydroxychloroquine for Refractory Patients With RAS Mutations",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "The combination of MEK inhibitor + hydroxychloroquine( plaquenil) ± bevacizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00336648",
+                "url": "https://clinicaltrials.gov/study/NCT00336648",
+                "title": "Preop Chemoradiation Resectable Pancreas",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Avastin (Bevacizumab)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:nivolumab",
+            "label": "Nivolumab",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 61,
+            "citation_count": 61,
+            "citations": [
+              {
+                "nct_id": "NCT05162118",
+                "url": "https://clinicaltrials.gov/study/NCT05162118",
+                "title": "Clinical Study of VG161 in Combination With Nivolumab in Subjects With Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Recombinant Human IL12/15-PDL1B Oncolytic HSV-1 Injection (Vero Cell)) in combination with Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:cyclophosphamide",
+            "label": "Cyclophosphamide",
+            "type": "drug",
+            "degree": 11,
+            "is_query_entity": false,
+            "trial_count": 58,
+            "citation_count": 58,
+            "citations": [
+              {
+                "nct_id": "NCT04025216",
+                "url": "https://clinicaltrials.gov/study/NCT04025216",
+                "title": "A Study of CART-TnMUC1 in Patients With TnMUC1-Positive Advanced Cancers",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03302403",
+                "url": "https://clinicaltrials.gov/study/NCT03302403",
+                "title": "Clinical Study of Redirected Autologous T Cells With a Chimeric Antigen Receptor in Patients With Malignant Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:nab-paclitaxel",
+            "weight": 167,
+            "trial_count": 167,
+            "citation_count": 167,
+            "citations": [
+              {
+                "nct_id": "NCT04115163",
+                "url": "https://clinicaltrials.gov/study/NCT04115163",
+                "title": "Biologically Optimized Infusion Schedule of Gemcitabine and Nab-Paclitaxel for the Treatment of Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07578337",
+                "url": "https://clinicaltrials.gov/study/NCT07578337",
+                "title": "A Clinical Study Evaluating a New Treatment Strategy for Patients With Advanced Pancreatic Cancer Who Have Not Received Prior Treatment for Advanced Disease.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine (1000 mg/m2)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel (Abraxane)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:oxaliplatin",
+            "weight": 80,
+            "trial_count": 80,
+            "citation_count": 80,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "gemcitabine hydrochloride"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:leucovorin",
+            "target": "drug:oxaliplatin",
+            "weight": 72,
+            "trial_count": 72,
+            "citation_count": 72,
+            "citations": [
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "leucovorin calcium"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01926197",
+                "url": "https://clinicaltrials.gov/study/NCT01926197",
+                "title": "Phase 3 Study of FOLFIRINOX (mFFX) +/- SBRT in Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:irinotecan",
+            "target": "drug:oxaliplatin",
+            "weight": 63,
+            "trial_count": 63,
+            "citation_count": 63,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01926197",
+                "url": "https://clinicaltrials.gov/study/NCT01926197",
+                "title": "Phase 3 Study of FOLFIRINOX (mFFX) +/- SBRT in Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:gemcitabine",
+            "weight": 61,
+            "trial_count": 61,
+            "citation_count": 61,
+            "citations": [
+              {
+                "nct_id": "NCT00032175",
+                "url": "https://clinicaltrials.gov/study/NCT00032175",
+                "title": "Gemcitabine With or Without Capecitabine in Treating Patients With Locally Advanced or Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "gemcitabine hydrochloride"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04089150",
+                "url": "https://clinicaltrials.gov/study/NCT04089150",
+                "title": "MFOLFIRINOX And Stereotactic Radiotherapy (SBRT) for Pancreatic Cancer With High Risk and Locally Advanced Disease",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Gemcitabine + Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Gemcitabine + Nab-paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:leucovorin",
+            "weight": 60,
+            "trial_count": 60,
+            "citation_count": 60,
+            "citations": [
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00303758",
+                "url": "https://clinicaltrials.gov/study/NCT00303758",
+                "title": "Combination Chemotherapy in Treating Patients With Metastatic Pancreatic Cancer That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:oxaliplatin",
+            "weight": 55,
+            "trial_count": 55,
+            "citation_count": 55,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:irinotecan",
+            "target": "drug:leucovorin",
+            "weight": 55,
+            "trial_count": 55,
+            "citation_count": 55,
+            "citations": [
+              {
+                "nct_id": "NCT01926197",
+                "url": "https://clinicaltrials.gov/study/NCT01926197",
+                "title": "Phase 3 Study of FOLFIRINOX (mFFX) +/- SBRT in Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:gemcitabine",
+            "weight": 54,
+            "trial_count": 54,
+            "citation_count": 54,
+            "citations": [
+              {
+                "nct_id": "NCT06076837",
+                "url": "https://clinicaltrials.gov/study/NCT06076837",
+                "title": "The Seven Trial: Exploiting the Unfolded Protein Response",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06115499",
+                "url": "https://clinicaltrials.gov/study/NCT06115499",
+                "title": "The PLATINUM Trial: Optimizing Chemotherapy for the Second-Line Treatment of Metastatic BRCA1/2 or PALB2-Associated Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:gemcitabine",
+            "weight": 51,
+            "trial_count": 51,
+            "citation_count": 51,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "gemcitabine hydrochloride"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:leucovorin",
+            "weight": 47,
+            "trial_count": 47,
+            "citation_count": 47,
+            "citations": [
+              {
+                "nct_id": "NCT00089024",
+                "url": "https://clinicaltrials.gov/study/NCT00089024",
+                "title": "Combination Chemotherapy, and Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "gemcitabine hydrochloride"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00303758",
+                "url": "https://clinicaltrials.gov/study/NCT00303758",
+                "title": "Combination Chemotherapy in Treating Patients With Metastatic Pancreatic Cancer That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "gemcitabine hydrochloride"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:irinotecan",
+            "weight": 45,
+            "trial_count": 45,
+            "citation_count": 45,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02324543",
+                "url": "https://clinicaltrials.gov/study/NCT02324543",
+                "title": "Study of Gemcitabine/Taxotere/Xeloda (GTX) in Combination With Cisplatin and Irinotecan in Subjects With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:irinotecan",
+            "weight": 40,
+            "trial_count": 40,
+            "citation_count": 40,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00416767",
+                "url": "https://clinicaltrials.gov/study/NCT00416767",
+                "title": "Combination Chemotherapy as First-Line Therapy in Treating Patients With Locally Advanced or Metastatic Neuroendocrine Tumors of the Duodenum or Pancreas That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "irinotecan hydrochloride"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:gemcitabine",
+            "weight": 32,
+            "trial_count": 32,
+            "citation_count": 32,
+            "citations": [
+              {
+                "nct_id": "NCT00336648",
+                "url": "https://clinicaltrials.gov/study/NCT00336648",
+                "title": "Preop Chemoradiation Resectable Pancreas",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Avastin (Bevacizumab)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00100815",
+                "url": "https://clinicaltrials.gov/study/NCT00100815",
+                "title": "Gemcitabine, Capecitabine, and Bevacizumab in Treating Patients With Metastatic or Unresectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "gemcitabine hydrochloride"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:nab-paclitaxel",
+            "target": "drug:oxaliplatin",
+            "weight": 32,
+            "trial_count": 32,
+            "citation_count": 32,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Nab-Paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:leucovorin",
+            "target": "drug:nab-paclitaxel",
+            "weight": 30,
+            "trial_count": 30,
+            "citation_count": 30,
+            "citations": [
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06586515",
+                "url": "https://clinicaltrials.gov/study/NCT06586515",
+                "title": "MOONRAY-01, A Study of LY3962673 in Participants With KRAS G12D-Mutant Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "nab-paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:oxaliplatin",
+            "weight": 25,
+            "trial_count": 25,
+            "citation_count": 25,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:irinotecan",
+            "target": "drug:nab-paclitaxel",
+            "weight": 22,
+            "trial_count": 22,
+            "citation_count": 22,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Nab-Paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:oxaliplatin",
+            "weight": 21,
+            "trial_count": 21,
+            "citation_count": 21,
+            "citations": [
+              {
+                "nct_id": "NCT03193190",
+                "url": "https://clinicaltrials.gov/study/NCT03193190",
+                "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04164069",
+                "url": "https://clinicaltrials.gov/study/NCT04164069",
+                "title": "Dasatinib for the Prevention of Oxaliplatin-Induced Neuropathy in Patients With Metastatic Gastrointestinal Cancer Receiving FOLFOX Chemotherapy With or Without Bevacizumab",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:nab-paclitaxel",
+            "weight": 20,
+            "trial_count": 20,
+            "citation_count": 20,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:nab-paclitaxel",
+            "weight": 20,
+            "trial_count": 20,
+            "citation_count": 20,
+            "citations": [
+              {
+                "nct_id": "NCT06538207",
+                "url": "https://clinicaltrials.gov/study/NCT06538207",
+                "title": "An Open-label, Uncontrolled Study of ONO-4578 and ONO-4538 in Combination With Standard-of-care Modified FOLFIRINOX (mFFX) or Gemcitabine Plus Nab-paclitaxel (GnP) Therapy as First-line Treatment in Patients With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Nab-Paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03193190",
+                "url": "https://clinicaltrials.gov/study/NCT03193190",
+                "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nab-Paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:pembrolizumab",
+            "weight": 19,
+            "trial_count": 19,
+            "citation_count": 19,
+            "citations": [
+              {
+                "nct_id": "NCT04060342",
+                "url": "https://clinicaltrials.gov/study/NCT04060342",
+                "title": "GB1275 Monotherapy and in Combination With an Anti-PD1 Antibody in Patients With Specified Advanced Solid Tumors or in Combination With Standard of Care in Patients With Metastatic Pancreatic Adenocarcinoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "nab-paclitaxel and gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04083599",
+                "url": "https://clinicaltrials.gov/study/NCT04083599",
+                "title": "GEN1042 Safety Trial and Anti-tumor Activity in Participants With Malignant Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:capecitabine",
+            "weight": 17,
+            "trial_count": 17,
+            "citation_count": 17,
+            "citations": [
+              {
+                "nct_id": "NCT00100815",
+                "url": "https://clinicaltrials.gov/study/NCT00100815",
+                "title": "Gemcitabine, Capecitabine, and Bevacizumab in Treating Patients With Metastatic or Unresectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "capecitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00305877",
+                "url": "https://clinicaltrials.gov/study/NCT00305877",
+                "title": "Bevacizumab or Cetuximab And Gemcitabine Hydrochloride, Capecitabine, and Radiation Therapy in Treating Patients With Pacreatic Cancer That Has Been Completely Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "capecitabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:leucovorin",
+            "weight": 17,
+            "trial_count": 17,
+            "citation_count": 17,
+            "citations": [
+              {
+                "nct_id": "NCT03193190",
+                "url": "https://clinicaltrials.gov/study/NCT03193190",
+                "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04164069",
+                "url": "https://clinicaltrials.gov/study/NCT04164069",
+                "title": "Dasatinib for the Prevention of Oxaliplatin-Induced Neuropathy in Patients With Metastatic Gastrointestinal Cancer Receiving FOLFOX Chemotherapy With or Without Bevacizumab",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:nab-paclitaxel",
+            "weight": 16,
+            "trial_count": 16,
+            "citation_count": 16,
+            "citations": [
+              {
+                "nct_id": "NCT03193190",
+                "url": "https://clinicaltrials.gov/study/NCT03193190",
+                "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nab-Paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04999761",
+                "url": "https://clinicaltrials.gov/study/NCT04999761",
+                "title": "AB122 Platform Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[16].name",
+                    "text": "nab-Paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:fluorouracil",
+            "weight": 15,
+            "trial_count": 15,
+            "citation_count": 15,
+            "citations": [
+              {
+                "nct_id": "NCT00601627",
+                "url": "https://clinicaltrials.gov/study/NCT00601627",
+                "title": "Panitumumab, Chemotherapy, and External-Beam Radiation Therapy in Treating Patients With Locally Advanced Pancreatic Cancer That Cannot be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "fluorouracil"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:gemcitabine",
+            "target": "drug:nivolumab",
+            "weight": 14,
+            "trial_count": 14,
+            "citation_count": 14,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03697564",
+                "url": "https://clinicaltrials.gov/study/NCT03697564",
+                "title": "Nivolumab + Cabiralizumab + Gemcitabine in Patients With Stage IV Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab 10 MG/ML Intravenous Solution [OPDIVO]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:irinotecan",
+            "weight": 13,
+            "trial_count": 13,
+            "citation_count": 13,
+            "citations": [
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:leucovorin",
+            "weight": 13,
+            "trial_count": 13,
+            "citation_count": 13,
+            "citations": [
+              {
+                "nct_id": "NCT07024615",
+                "url": "https://clinicaltrials.gov/study/NCT07024615",
+                "title": "A Study of ASP2138 Given Before Surgery, Then Chemotherapy After Surgery, in People With Pancreatic Ductal Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:fluorouracil",
+            "weight": 13,
+            "trial_count": 13,
+            "citation_count": 13,
+            "citations": [
+              {
+                "nct_id": "NCT00303758",
+                "url": "https://clinicaltrials.gov/study/NCT00303758",
+                "title": "Combination Chemotherapy in Treating Patients With Metastatic Pancreatic Cancer That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "fluorouracil"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04999761",
+                "url": "https://clinicaltrials.gov/study/NCT04999761",
+                "title": "AB122 Platform Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[9].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:nab-paclitaxel",
+            "weight": 13,
+            "trial_count": 13,
+            "citation_count": 13,
+            "citations": [
+              {
+                "nct_id": "NCT02550327",
+                "url": "https://clinicaltrials.gov/study/NCT02550327",
+                "title": "Gemcitabine, Nab-Paclitaxel, Cisplatin and Anakinra Treatment on Patients With Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01893801",
+                "url": "https://clinicaltrials.gov/study/NCT01893801",
+                "title": "Nab-Pac+Cis+Gem in Pts w Previously Untreated Metastatic PDA",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "nab-paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:cisplatin",
+            "weight": 12,
+            "trial_count": 12,
+            "citation_count": 12,
+            "citations": [
+              {
+                "nct_id": "NCT07828756",
+                "url": "https://clinicaltrials.gov/study/NCT07828756",
+                "title": "Albumin-bound Paclitaxel (Ⅱ)-Combined Regimens for Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Cisplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00010023",
+                "url": "https://clinicaltrials.gov/study/NCT00010023",
+                "title": "Capecitabine Combined With Cisplatin in Treating Patients With Locally Advanced or Metastatic Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "cisplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:pembrolizumab",
+            "weight": 11,
+            "trial_count": 11,
+            "citation_count": 11,
+            "citations": [
+              {
+                "nct_id": "NCT07090499",
+                "url": "https://clinicaltrials.gov/study/NCT07090499",
+                "title": "A Study to Learn About the Study Medicine Called PF-08046876 in People With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04083599",
+                "url": "https://clinicaltrials.gov/study/NCT04083599",
+                "title": "GEN1042 Safety Trial and Anti-tumor Activity in Participants With Malignant Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:fluorouracil",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT03193190",
+                "url": "https://clinicaltrials.gov/study/NCT03193190",
+                "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04999761",
+                "url": "https://clinicaltrials.gov/study/NCT04999761",
+                "title": "AB122 Platform Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[9].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:nab-paclitaxel",
+            "target": "drug:nivolumab",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07226856",
+                "url": "https://clinicaltrials.gov/study/NCT07226856",
+                "title": "BMS-986340 in Combination With Nivolumab, Gemcitabine and Nab-paclitaxel for the Treatment of Metastatic and Recurrent Pancreatic Adenocarcinoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nab-paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:nab-paclitaxel",
+            "target": "drug:pembrolizumab",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT04753879",
+                "url": "https://clinicaltrials.gov/study/NCT04753879",
+                "title": "Multi-agent Low Dose Chemotherapy GAX-CI Followed by Olaparib and Pembro in Metastatic Pancreatic Ductal Cancer.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nab-paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04447092",
+                "url": "https://clinicaltrials.gov/study/NCT04447092",
+                "title": "Pembrolizumab Plus Chemotherapy in 1st Line Treatment of Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:leucovorin",
+            "target": "drug:pembrolizumab",
+            "weight": 9,
+            "trial_count": 9,
+            "citation_count": 9,
+            "citations": [
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02620423",
+                "url": "https://clinicaltrials.gov/study/NCT02620423",
+                "title": "Study of Pembrolizumab With REOLYSIN® and Chemotherapy in Patients With Advanced Pancreatic Adenocarcinoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:oxaliplatin",
+            "target": "drug:pembrolizumab",
+            "weight": 9,
+            "trial_count": 9,
+            "citation_count": 9,
+            "citations": [
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02009449",
+                "url": "https://clinicaltrials.gov/study/NCT02009449",
+                "title": "A Phase 1 Study of Pegilodecakin (LY3500518) in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "FOLFOX (Oxaliplatin/Leucovorin/5-Fluorouracil)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:nab-paclitaxel",
+            "weight": 8,
+            "trial_count": 8,
+            "citation_count": 8,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nab-paclitaxel"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "nab-Paclitaxel"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:pembrolizumab",
+            "weight": 8,
+            "trial_count": 8,
+            "citation_count": 8,
+            "citations": [
+              {
+                "nct_id": "NCT05395052",
+                "url": "https://clinicaltrials.gov/study/NCT05395052",
+                "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01174121",
+                "url": "https://clinicaltrials.gov/study/NCT01174121",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Pembrolizumab (Keytruda)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:irinotecan",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT02324543",
+                "url": "https://clinicaltrials.gov/study/NCT02324543",
+                "title": "Study of Gemcitabine/Taxotere/Xeloda (GTX) in Combination With Cisplatin and Irinotecan in Subjects With Metastatic Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01296763",
+                "url": "https://clinicaltrials.gov/study/NCT01296763",
+                "title": "Trial of ICM With or Without AZD2281 (Olaparib) in Patients With Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:leucovorin",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[17].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[9].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:oxaliplatin",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[18].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[12].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:pembrolizumab",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06447662",
+                "url": "https://clinicaltrials.gov/study/NCT06447662",
+                "title": "A Study to Learn About the Study Medicine PF-07934040 When Given Alone or With Other Anti-cancer Therapies in People With Advanced Solid Tumors That Have a Genetic Mutation.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:irinotecan",
+            "target": "drug:pembrolizumab",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02620423",
+                "url": "https://clinicaltrials.gov/study/NCT02620423",
+                "title": "Study of Pembrolizumab With REOLYSIN® and Chemotherapy in Patients With Advanced Pancreatic Adenocarcinoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:nivolumab",
+            "target": "drug:oxaliplatin",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03970252",
+                "url": "https://clinicaltrials.gov/study/NCT03970252",
+                "title": "Nivolumab in Combination With Chemotherapy Pre-Surgery in Treating Patients With Borderline Resectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Nivolumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:pembrolizumab",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT06400472",
+                "url": "https://clinicaltrials.gov/study/NCT06400472",
+                "title": "A Study of Sofe-M in Participants With Selected Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05482893",
+                "url": "https://clinicaltrials.gov/study/NCT05482893",
+                "title": "Spevatamig (PT886) as Monotherapy or in Combination With Chemo and/or Targeted Therapy and/or ICI, for the Treatment of Patients With Advanced Gastrointestinal Cancers, Including Gastric, Gastroesophageal Junction, Pancreatic Ductal or Biliary Tract Carcinomas (the TWINPEAK Study)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[9].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "KEYTRUDA® (pembrolizumab)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:cyclophosphamide",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[14].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:oxaliplatin",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT02658214",
+                "url": "https://clinicaltrials.gov/study/NCT02658214",
+                "title": "Durvalumab and Tremelimumab in Combination With First-Line Chemotherapy in Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "cisplatin + 5-fluorouracil (5FU)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "oxaliplatin + 5-fluorouracil (5FU) + leucovorin (calcium folinate/folinic acid)"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03668418",
+                "url": "https://clinicaltrials.gov/study/NCT03668418",
+                "title": "Xenotransplantation of Primary Cancer Samples in Zebrafish Embryos",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Oxaliplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:irinotecan",
+            "target": "drug:nivolumab",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT03970252",
+                "url": "https://clinicaltrials.gov/study/NCT03970252",
+                "title": "Nivolumab in Combination With Chemotherapy Pre-Surgery in Treating Patients With Borderline Resectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03184870",
+                "url": "https://clinicaltrials.gov/study/NCT03184870",
+                "title": "A Study of BMS-813160 in Combination With Chemotherapy or Nivolumab in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Irinotecan"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:nivolumab",
+            "target": "drug:pembrolizumab",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT05745233",
+                "url": "https://clinicaltrials.gov/study/NCT05745233",
+                "title": "Intraperitoneal Immune Checkpoint Inhibitor for Malignant Ascites",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03565445",
+                "url": "https://clinicaltrials.gov/study/NCT03565445",
+                "title": "A Study of ASP1948, Targeting an Immune Modulatory Receptor as a Single Agent and in Combination With a PD-l Inhibitor (Nivolumab or Pembrolizumab) in Subjects With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "nivolumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:cyclophosphamide",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[13].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:nivolumab",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT05867121",
+                "url": "https://clinicaltrials.gov/study/NCT05867121",
+                "title": "A Study to Evaluate Safety, Pharmacokinetics, & Activity of RO7496353 in Combination With a Checkpoint Inhibitor With or Without Standard-of-care Chemotherapy in Participants With Locally Advanced or Metastatic Solid Tumors; Urothelial Carcinoma Substudy in Association With RO7496353 Study GO44010",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02009449",
+                "url": "https://clinicaltrials.gov/study/NCT02009449",
+                "title": "A Phase 1 Study of Pegilodecakin (LY3500518) in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:leucovorin",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT00303758",
+                "url": "https://clinicaltrials.gov/study/NCT00303758",
+                "title": "Combination Chemotherapy in Treating Patients With Metastatic Pancreatic Cancer That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "leucovorin calcium"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05945823",
+                "url": "https://clinicaltrials.gov/study/NCT05945823",
+                "title": "Phase 2 Futibatinib in Combination With PD-1 Antibody Based Standard of Care in Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Leucovorin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:nivolumab",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT05395052",
+                "url": "https://clinicaltrials.gov/study/NCT05395052",
+                "title": "FT536 Monotherapy and in Combination With Monoclonal Antibodies in Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03841110",
+                "url": "https://clinicaltrials.gov/study/NCT03841110",
+                "title": "FT500 as Monotherapy and in Combination With Immune Checkpoint Inhibitors in Subjects With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:leucovorin",
+            "target": "drug:nivolumab",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT03970252",
+                "url": "https://clinicaltrials.gov/study/NCT03970252",
+                "title": "Nivolumab in Combination With Chemotherapy Pre-Surgery in Treating Patients With Borderline Resectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03184870",
+                "url": "https://clinicaltrials.gov/study/NCT03184870",
+                "title": "A Study of BMS-813160 in Combination With Chemotherapy or Nivolumab in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Leucovorin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:cisplatin",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04999761",
+                "url": "https://clinicaltrials.gov/study/NCT04999761",
+                "title": "AB122 Platform Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Cisplatin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06447662",
+                "url": "https://clinicaltrials.gov/study/NCT06447662",
+                "title": "A Study to Learn About the Study Medicine PF-07934040 When Given Alone or With Other Anti-cancer Therapies in People With Advanced Solid Tumors That Have a Genetic Mutation.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Cisplatin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:irinotecan",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT01803282",
+                "url": "https://clinicaltrials.gov/study/NCT01803282",
+                "title": "Study to Evaluate the Safety and Tolerability of Andecaliximab as Monotherapy and in Combination With Chemotherapy in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[9].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04299880",
+                "url": "https://clinicaltrials.gov/study/NCT04299880",
+                "title": "Rollover Study to Provide Continued Access to Napabucasin for Patients Enrolled in Boston Biomedical-sponsored Protocols",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:capecitabine",
+            "target": "drug:pembrolizumab",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT05365581",
+                "url": "https://clinicaltrials.gov/study/NCT05365581",
+                "title": "A Study of ASP2138 Given by Itself or Given With Other Cancer Treatments in Adults With Stomach Cancer, Gastroesophageal Junction Cancer, or Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02009449",
+                "url": "https://clinicaltrials.gov/study/NCT02009449",
+                "title": "A Phase 1 Study of Pegilodecakin (LY3500518) in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Capecitabine"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:fluorouracil",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03329248",
+                "url": "https://clinicaltrials.gov/study/NCT03329248",
+                "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03009058",
+                "url": "https://clinicaltrials.gov/study/NCT03009058",
+                "title": "Study of IMM 101 in Combination With Standard of Care in Patients With Metastatic or Unresectable Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[11].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Fluorouracil"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:gemcitabine",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03563144",
+                "url": "https://clinicaltrials.gov/study/NCT03563144",
+                "title": "QUILT-3.088: NANT Pancreatic Cancer Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[15].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03009058",
+                "url": "https://clinicaltrials.gov/study/NCT03009058",
+                "title": "Study of IMM 101 in Combination With Standard of Care in Patients With Metastatic or Unresectable Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[11].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Gemcitabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:fluorouracil",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT03970252",
+                "url": "https://clinicaltrials.gov/study/NCT03970252",
+                "title": "Nivolumab in Combination With Chemotherapy Pre-Surgery in Treating Patients With Borderline Resectable Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06544655",
+                "url": "https://clinicaltrials.gov/study/NCT06544655",
+                "title": "A Study of BMS-986484 Alone and Combination Therapy in Participants With Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Fluorouracil"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:bevacizumab",
+            "target": "drug:nivolumab",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT04925284",
+                "url": "https://clinicaltrials.gov/study/NCT04925284",
+                "title": "Study of XB002 in Subjects With Solid Tumors (JEWEL-101)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04299880",
+                "url": "https://clinicaltrials.gov/study/NCT04299880",
+                "title": "Rollover Study to Provide Continued Access to Napabucasin for Patients Enrolled in Boston Biomedical-sponsored Protocols",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[8].name",
+                    "text": "Bevacizumab"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:cyclophosphamide",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "url": "https://clinicaltrials.gov/study/NCT00002854",
+                "title": "High-Dose Combination Chemotherapy Plus Peripheral Stem Cell Transplantation in Treating Patients With Advanced Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03085914",
+                "url": "https://clinicaltrials.gov/study/NCT03085914",
+                "title": "A Study of Epacadostat in Combination With Pembrolizumab and Chemotherapy in Participants With Advanced or Metastatic Solid Tumors (ECHO-207/KEYNOTE-723)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[12].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[10].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cisplatin",
+            "target": "drug:nivolumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT04953962",
+                "url": "https://clinicaltrials.gov/study/NCT04953962",
+                "title": "Study of CBP501/Cisplatin/Nivolumab Combinations in Advanced Pancreatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cisplatin"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "drug:cyclophosphamide",
+            "target": "drug:irinotecan",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT03009058",
+                "url": "https://clinicaltrials.gov/study/NCT03009058",
+                "title": "Study of IMM 101 in Combination With Standard of Care in Patients With Metastatic or Unresectable Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[11].name",
+                    "text": "Cyclophosphamide"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Irinotecan"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "options": {
+        "orientation": null,
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": "force",
+        "bipartite": false
+      }
+    },
+    "meta": {
+      "query": "Which drugs frequently co-occur in combination studies for pancreatic cancer?",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "condition": "pancreatic cancer"
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "network",
+        "rationale": "A drug–drug co-occurrence network (drug vs drug) will identify which drugs are most often tested together in trials for pancreatic cancer.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "network",
+          "network": {
+            "source": "drug",
+            "target": "drug"
+          },
+          "filters": {
+            "condition": "pancreatic cancer"
+          },
+          "cohorts": [],
+          "chart_type": "network_graph",
+          "top_n": 12,
+          "rationale": "A drug–drug co-occurrence network (drug vs drug) will identify which drugs are most often tested together in trials for pancreatic cancer."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 4722,
+            "input_tokens": 2718,
+            "output_tokens": 432,
+            "reasoning_tokens": 64,
+            "confidence": "medium",
+            "cost_usd": 0.000968,
+            "ambiguities": [
+              "The user asked for \"frequently\" but did not specify a time window or a threshold for frequency (e.g., top N or minimum co-occurrence count).",
+              "Unclear whether the user wants to include only interventional combination trials or also observational/expanded-access studies; I left study_type and intervention_types unspecified to include all trials that list drugs for pancreatic cancer."
+            ]
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Pancreatic cancer",
+          "total_matching": 5106,
+          "analyzed": 5000,
+          "truncated": true,
+          "api_params": {
+            "query.cond": "pancreatic cancer"
+          }
+        }
+      ],
+      "counting_rule": "Node trial_count = distinct trials listing the entity; edge weight = distinct trials in which both entities appear. Each trial is counted once even if it lists an entity several times.",
+      "sort": "nodes by trial_count descending; edges by weight descending",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [
+        "cohort 'Pancreatic cancer': analyzed 5000 of 5106 matching trials (raise max_studies up to 10000 for full coverage)"
+      ],
+      "notes": [
+        "showing top 12 of 1486 connected drug nodes (by trial count)"
+      ],
+      "generated_at": "2026-10-21T18:11:22+00:00",
+      "elapsed_ms": 8166,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

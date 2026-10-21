@@ -1,0 +1,629 @@
+{
+  "request": {
+    "query": "Compare sponsor categories across two conditions.",
+    "compare": [
+      "asthma",
+      "COPD"
+    ],
+    "compare_on": "condition",
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "grouped_bar_chart",
+      "title": "Trials by sponsor class: asthma vs COPD",
+      "subtitle": "All registered trials",
+      "encoding": {
+        "x": {
+          "field": "sponsor_class",
+          "type": "nominal",
+          "title": "Sponsor class",
+          "unit": null,
+          "sort": [
+            "Other (academic/other)",
+            "Industry",
+            "Other government",
+            "NIH",
+            "Federal (US)",
+            "Network",
+            "Individual",
+            "Unknown"
+          ],
+          "aggregate": null
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of trials",
+          "unit": "trials",
+          "sort": null,
+          "aggregate": "sum"
+        },
+        "series": {
+          "field": "cohort",
+          "type": "nominal",
+          "title": "Cohort",
+          "unit": null,
+          "sort": [
+            "asthma",
+            "COPD"
+          ],
+          "aggregate": null
+        },
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": null,
+        "columns": null
+      },
+      "data": [
+        {
+          "sponsor_class": "Other (academic/other)",
+          "cohort": "asthma",
+          "percent": 57.6,
+          "trial_count": 2882,
+          "citation_count": 2882,
+          "citations": [
+            {
+              "nct_id": "NCT00006512",
+              "url": "https://clinicaltrials.gov/study/NCT00006512",
+              "title": "Characterizing a 5P-Linked BHR Susceptibility Locus",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT00839137",
+              "url": "https://clinicaltrials.gov/study/NCT00839137",
+              "title": "Exercise Therapy for Asthma (ETA Trial)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Other (academic/other)",
+          "cohort": "COPD",
+          "percent": 65.4,
+          "trial_count": 3270,
+          "citation_count": 3270,
+          "citations": [
+            {
+              "nct_id": "NCT07837375",
+              "url": "https://clinicaltrials.gov/study/NCT07837375",
+              "title": "SPARK: Supporting Physical Activity Through Reality-Augmented Knowledge in COPD",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03468101",
+              "url": "https://clinicaltrials.gov/study/NCT03468101",
+              "title": "Characterization of Professional COPD Related to Exposure to Organic Dust - Mean Follow up at 6 Years",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Industry",
+          "cohort": "asthma",
+          "percent": 36.2,
+          "trial_count": 1808,
+          "citation_count": 1808,
+          "citations": [
+            {
+              "nct_id": "NCT06422663",
+              "url": "https://clinicaltrials.gov/study/NCT06422663",
+              "title": "A Study To Evaluate The Treatment Pattern Of Moderate-to-Severe Asthma Patients In China",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDUSTRY"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04221802",
+              "url": "https://clinicaltrials.gov/study/NCT04221802",
+              "title": "Patient-reported Outcomes in Real-world Use of Benralizumab in Patients With Severe Eosinophilic Asthma in Belgium",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDUSTRY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Industry",
+          "cohort": "COPD",
+          "percent": 29.7,
+          "trial_count": 1485,
+          "citation_count": 1485,
+          "citations": [
+            {
+              "nct_id": "NCT07828353",
+              "url": "https://clinicaltrials.gov/study/NCT07828353",
+              "title": "A Clinical Study of REGEND001 for the Treatment of Chronic Obstructive Pulmonary Disease (COPD)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDUSTRY"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02172456",
+              "url": "https://clinicaltrials.gov/study/NCT02172456",
+              "title": "Evaluation of the Lung Deposition Rate and Distribution Pattern of Tiotropium Via HandiHalerTM in Healthy Subjects and Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDUSTRY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Other government",
+          "cohort": "asthma",
+          "percent": 2.0,
+          "trial_count": 100,
+          "citation_count": 100,
+          "citations": [
+            {
+              "nct_id": "NCT02813811",
+              "url": "https://clinicaltrials.gov/study/NCT02813811",
+              "title": "Laminar Airflow in Severe Asthma for Exacerbation Reduction - 48 Month Follow-up.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER_GOV"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04465175",
+              "url": "https://clinicaltrials.gov/study/NCT04465175",
+              "title": "Double Dose Magnesium Sulphate in Moderate-severe Asthma in Paediatrics",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER_GOV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Other government",
+          "cohort": "COPD",
+          "percent": 2.3,
+          "trial_count": 114,
+          "citation_count": 114,
+          "citations": [
+            {
+              "nct_id": "NCT04840706",
+              "url": "https://clinicaltrials.gov/study/NCT04840706",
+              "title": "Open-Label Prospective Study Comparing Long-Term Outcome With or Without HFNC in Patients With Stable Hypercapnic COPD",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER_GOV"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06428513",
+              "url": "https://clinicaltrials.gov/study/NCT06428513",
+              "title": "Health Coaching Telemedicine Program for Lung Transplant Candidates With End-stage Lung Disease.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "OTHER_GOV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "NIH",
+          "cohort": "asthma",
+          "percent": 3.0,
+          "trial_count": 151,
+          "citation_count": 151,
+          "citations": [
+            {
+              "nct_id": "NCT00005484",
+              "url": "https://clinicaltrials.gov/study/NCT00005484",
+              "title": "Predictors of Hospital-Based Care in Asthma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NIH"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT00301171",
+              "url": "https://clinicaltrials.gov/study/NCT00301171",
+              "title": "Treatment of Persistent Wheezing in Infants and Children",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NIH"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "NIH",
+          "cohort": "COPD",
+          "percent": 0.6,
+          "trial_count": 30,
+          "citation_count": 30,
+          "citations": [
+            {
+              "nct_id": "NCT00006419",
+              "url": "https://clinicaltrials.gov/study/NCT00006419",
+              "title": "Diet and Chronic Obstructive Pulmonary Disease",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NIH"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT00005425",
+              "url": "https://clinicaltrials.gov/study/NCT00005425",
+              "title": "Statistical Analysis of Vlagtwedde-Vlaardingen Data Set",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NIH"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Federal (US)",
+          "cohort": "asthma",
+          "percent": 0.3,
+          "trial_count": 14,
+          "citation_count": 14,
+          "citations": [
+            {
+              "nct_id": "NCT00232557",
+              "url": "https://clinicaltrials.gov/study/NCT00232557",
+              "title": "Telecommunications System in Asthma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "FED"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT01522144",
+              "url": "https://clinicaltrials.gov/study/NCT01522144",
+              "title": "An Electronic Decision Support Tool to Improve Outpatient Asthma Care",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "FED"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Federal (US)",
+          "cohort": "COPD",
+          "percent": 1.4,
+          "trial_count": 70,
+          "citation_count": 70,
+          "citations": [
+            {
+              "nct_id": "NCT03655028",
+              "url": "https://clinicaltrials.gov/study/NCT03655028",
+              "title": "Increasing Physical Activity in COPD Through Rhythmically Enhanced Music",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "FED"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06749262",
+              "url": "https://clinicaltrials.gov/study/NCT06749262",
+              "title": "Inclined Versus Standard Exercise for COPD Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "FED"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Network",
+          "cohort": "asthma",
+          "percent": 0.7,
+          "trial_count": 35,
+          "citation_count": 35,
+          "citations": [
+            {
+              "nct_id": "NCT02294279",
+              "url": "https://clinicaltrials.gov/study/NCT02294279",
+              "title": "The Evaluation of FeNO for Predicting Response to ICS in Subjects With Non-specific Respiratory Symptoms",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NETWORK"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT01242098",
+              "url": "https://clinicaltrials.gov/study/NCT01242098",
+              "title": "Real-world Effectiveness of Combination Therapies in Primary Care Asthma Management",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NETWORK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Network",
+          "cohort": "COPD",
+          "percent": 0.5,
+          "trial_count": 23,
+          "citation_count": 23,
+          "citations": [
+            {
+              "nct_id": "NCT01141452",
+              "url": "https://clinicaltrials.gov/study/NCT01141452",
+              "title": "Real-life Effectiveness and Cost-effectiveness of Qvar Versus FP and BDP in the Management of COPD",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NETWORK"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT00904384",
+              "url": "https://clinicaltrials.gov/study/NCT00904384",
+              "title": "Prevalence and Determinants of Chronic Obstructive Pulmonary Disease (COPD) in HIV+ Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "NETWORK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Individual",
+          "cohort": "asthma",
+          "percent": 0.2,
+          "trial_count": 9,
+          "citation_count": 9,
+          "citations": [
+            {
+              "nct_id": "NCT00576069",
+              "url": "https://clinicaltrials.gov/study/NCT00576069",
+              "title": "Mechanism(s)of Airflow Limitation in Moderate-severe Persistent Asthma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDIV"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT00575861",
+              "url": "https://clinicaltrials.gov/study/NCT00575861",
+              "title": "Zileuton and Exhaled Nitric Oxide in Asthmatics",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDIV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Individual",
+          "cohort": "COPD",
+          "percent": 0.1,
+          "trial_count": 7,
+          "citation_count": 7,
+          "citations": [
+            {
+              "nct_id": "NCT00993707",
+              "url": "https://clinicaltrials.gov/study/NCT00993707",
+              "title": "Safety Study of CTX-100 Inhalation Solution (Formerly ETX-100)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDIV"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03263130",
+              "url": "https://clinicaltrials.gov/study/NCT03263130",
+              "title": "Site and Mechanism(s) of Expiratory Airflow Limitation in COPD, Emphysema and Asthma-COPD Overlap",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "INDIV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Unknown",
+          "cohort": "asthma",
+          "percent": 0.0,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT00890175",
+              "url": "https://clinicaltrials.gov/study/NCT00890175",
+              "title": "Staccato Loxapine Pulmonary Safety in Patients With Asthma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "UNKNOWN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sponsor_class": "Unknown",
+          "cohort": "COPD",
+          "percent": 0.0,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT00889837",
+              "url": "https://clinicaltrials.gov/study/NCT00889837",
+              "title": "Staccato Loxapine Pulmonary Safety in Patients With COPD",
+              "excerpts": [
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+                  "text": "UNKNOWN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": null,
+        "bipartite": null
+      }
+    },
+    "meta": {
+      "query": "Compare sponsor categories across two conditions.",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {},
+      "interpretation": {
+        "planner": "llm",
+        "intent": "distribution",
+        "rationale": "Show counts of trials by sponsor class for each condition so sponsor-category patterns can be compared side-by-side.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "distribution",
+          "group_by": "sponsor_class",
+          "filters": {},
+          "cohorts": [
+            {
+              "label": "asthma",
+              "filters": {
+                "condition": "asthma"
+              }
+            },
+            {
+              "label": "COPD",
+              "filters": {
+                "condition": "COPD"
+              }
+            }
+          ],
+          "chart_type": "grouped_bar_chart",
+          "top_n": 15,
+          "rationale": "Show counts of trials by sponsor class for each condition so sponsor-category patterns can be compared side-by-side."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 6034,
+            "input_tokens": 2740,
+            "output_tokens": 621,
+            "reasoning_tokens": 128,
+            "confidence": "high",
+            "cost_usd": 0.001322
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "asthma",
+          "total_matching": 5301,
+          "analyzed": 5000,
+          "truncated": true,
+          "api_params": {
+            "query.cond": "asthma"
+          }
+        },
+        {
+          "label": "COPD",
+          "total_matching": 5578,
+          "analyzed": 5000,
+          "truncated": true,
+          "api_params": {
+            "query.cond": "COPD"
+          }
+        }
+      ],
+      "counting_rule": "Each trial is counted exactly once, under its sponsor class.",
+      "sort": "trial_count descending (encoding.x.sort)",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [
+        "cohort 'asthma': analyzed 5000 of 5301 matching trials (raise max_studies up to 10000 for full coverage)",
+        "cohort 'COPD': analyzed 5000 of 5578 matching trials (raise max_studies up to 10000 for full coverage)"
+      ],
+      "notes": [],
+      "generated_at": "2026-10-21T18:11:48+00:00",
+      "elapsed_ms": 8915,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

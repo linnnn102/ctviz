@@ -1,0 +1,25 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# One free web service. FastAPI serves both the API and the demo UI at "/".
+services:
+  - type: web
+    name: ctviz
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      # Secret: entered in the Render dashboard, never committed. Leave empty to run rules-only.
+      - key: OPENAI_API_KEY
+        sync: false
+      # Cost guardrails for a public URL
+      - key: CTVIZ_DAILY_LLM_LIMIT
+        value: "200"          # LLM-planned requests per day, then free rule-based planner
+      - key: CTVIZ_RATE_LIMIT_PER_MIN
+        value: "10"           # per client IP, on POST /visualize and /plan
+      # Free instance has 512 MB RAM: keep the response cache small
+      - key: CTGOV_CACHE_MAX_ITEMS
+        value: "16"

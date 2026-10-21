@@ -1,0 +1,25 @@
+[project]
+name = "ctviz"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.156.1",
+    "httpx>=0.28.1",
+    "openai>=3.36.0",
+    "pydantic>=2.14.1",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "respx>=0.23.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["live: hits the real ClinicalTrials.gov API (run with -m live)"]
+addopts = "-m 'not live'"

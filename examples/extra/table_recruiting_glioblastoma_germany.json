@@ -1,0 +1,1050 @@
+{
+  "request": {
+    "query": "List recruiting trials for glioblastoma in Germany",
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "table",
+      "title": "Matching trials — Glioblastoma · Germany · Recruiting",
+      "subtitle": null,
+      "encoding": {
+        "x": null,
+        "y": null,
+        "series": null,
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": null,
+        "columns": [
+          {
+            "field": "nct_id",
+            "type": "nominal",
+            "title": "Nct id",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "title",
+            "type": "nominal",
+            "title": "Title",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "phase",
+            "type": "nominal",
+            "title": "Phase",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "status",
+            "type": "nominal",
+            "title": "Status",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "start_year",
+            "type": "nominal",
+            "title": "Start year",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "sponsor",
+            "type": "nominal",
+            "title": "Sponsor",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "enrollment",
+            "type": "nominal",
+            "title": "Enrollment",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "start_date",
+            "type": "nominal",
+            "title": "Start date",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          },
+          {
+            "field": "trial_count",
+            "type": "quantitative",
+            "title": "Trial count",
+            "unit": null,
+            "sort": null,
+            "aggregate": null
+          }
+        ]
+      },
+      "data": [
+        {
+          "nct_id": "NCT07409584",
+          "title": "Mental Health and Suicidality in Glioblastoma Patients in Germany",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2026",
+          "sponsor": "University Hospital, Essen",
+          "enrollment": "180",
+          "start_date": "2026-03-18",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT07409584",
+              "url": "https://clinicaltrials.gov/study/NCT07409584",
+              "title": "Mental Health and Suicidality in Glioblastoma Patients in Germany",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-03-18"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "University Hospital, Essen"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "180"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06333899",
+          "title": "Lorlatinib for Newly-Diagnosed High-Grade Glioma With ROS or ALK Fusion",
+          "phase": "Early Phase 1",
+          "status": "Recruiting",
+          "start_year": "2025",
+          "sponsor": "Nationwide Children's Hospital",
+          "enrollment": "15",
+          "start_date": "2025-08-03",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06333899",
+              "url": "https://clinicaltrials.gov/study/NCT06333899",
+              "title": "Lorlatinib for Newly-Diagnosed High-Grade Glioma With ROS or ALK Fusion",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "EARLY_PHASE1"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-08-03"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Nationwide Children's Hospital"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06533163",
+          "title": "Low-Intensity Oscillatory Magnetic Therapy in Patients With Newly Diagnosed Glioblastoma Multiforme (GBM) - An Exposure-time Escalation Pilot Trial",
+          "phase": "Not Applicable",
+          "status": "Recruiting",
+          "start_year": "2025",
+          "sponsor": "BioTex, Inc.",
+          "enrollment": "30",
+          "start_date": "2025-02-17",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06533163",
+              "url": "https://clinicaltrials.gov/study/NCT06533163",
+              "title": "Low-Intensity Oscillatory Magnetic Therapy in Patients With Newly Diagnosed Glioblastoma Multiforme (GBM) - An Exposure-time Escalation Pilot Trial",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "NA"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-02-17"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "BioTex, Inc."
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06556563",
+          "title": "EF-41/KEYNOTE D58: Phase 3 Study of Optune Concomitant With Temozolomide Plus Pembrolizumab in Newly Diagnosed Glioblastoma",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "start_year": "2025",
+          "sponsor": "NovoCure GmbH",
+          "enrollment": "741",
+          "start_date": "2025-02-03",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06556563",
+              "url": "https://clinicaltrials.gov/study/NCT06556563",
+              "title": "EF-41/KEYNOTE D58: Phase 3 Study of Optune Concomitant With Temozolomide Plus Pembrolizumab in Newly Diagnosed Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE3"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-02-03"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "NovoCure GmbH"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "741"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06161974",
+          "title": "Study of Olutasidenib and Temozolomide in HGG",
+          "phase": "Phase 2",
+          "status": "Recruiting",
+          "start_year": "2025",
+          "sponsor": "Rigel Pharmaceuticals",
+          "enrollment": "60",
+          "start_date": "2025-02-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06161974",
+              "url": "https://clinicaltrials.gov/study/NCT06161974",
+              "title": "Study of Olutasidenib and Temozolomide in HGG",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE2"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-02-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Rigel Pharmaceuticals"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "60"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT07021339",
+          "title": "Anterior Temporal Lobectomy in Temporal Glioblastoma",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "start_year": "2024",
+          "sponsor": "University Hospital, Bonn",
+          "enrollment": "178",
+          "start_date": "2024-11-28",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT07021339",
+              "url": "https://clinicaltrials.gov/study/NCT07021339",
+              "title": "Anterior Temporal Lobectomy in Temporal Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE3"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-11-28"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "University Hospital, Bonn"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "178"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05843253",
+          "title": "Study of Ribociclib and Everolimus in HGG and DIPG or Ribociclib and Temozolomide in DHG, H3G34-mutant",
+          "phase": "Phase 2",
+          "status": "Recruiting",
+          "start_year": "2024",
+          "sponsor": "Nationwide Children's Hospital",
+          "enrollment": "120",
+          "start_date": "2024-08-22",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT05843253",
+              "url": "https://clinicaltrials.gov/study/NCT05843253",
+              "title": "Study of Ribociclib and Everolimus in HGG and DIPG or Ribociclib and Temozolomide in DHG, H3G34-mutant",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE2"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-08-22"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Nationwide Children's Hospital"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05839379",
+          "title": "Targeted Pediatric High-Grade Glioma Therapy",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2024",
+          "sponsor": "Nationwide Children's Hospital",
+          "enrollment": "350",
+          "start_date": "2024-08-02",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT05839379",
+              "url": "https://clinicaltrials.gov/study/NCT05839379",
+              "title": "Targeted Pediatric High-Grade Glioma Therapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-08-02"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Nationwide Children's Hospital"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "350"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05904119",
+          "title": "Lomustine With and Without Reirradiation for First Progression of Glioblastoma: a Randomized Phase III Study",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "start_year": "2024",
+          "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+          "enrollment": "411",
+          "start_date": "2024-03-15",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT05904119",
+              "url": "https://clinicaltrials.gov/study/NCT05904119",
+              "title": "Lomustine With and Without Reirradiation for First Progression of Glioblastoma: a Randomized Phase III Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE3"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-03-15"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "European Organisation for Research and Treatment of Cancer - EORTC"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "411"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05902169",
+          "title": "Sonocloud-9 in Association With Carboplatin Versus Standard-of-Care Chemotherapies (CCNU or TMZ) in Recurrent GBM",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "start_year": "2024",
+          "sponsor": "CarThera",
+          "enrollment": "560",
+          "start_date": "2024-01-29",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT05902169",
+              "url": "https://clinicaltrials.gov/study/NCT05902169",
+              "title": "Sonocloud-9 in Association With Carboplatin Versus Standard-of-Care Chemotherapies (CCNU or TMZ) in Recurrent GBM",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE3"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-01-29"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "CarThera"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "560"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06140875",
+          "title": "Amplitude Modulated Radiofrequency Electromagnetic Field Treatment Combined With Radiochemotherapy and Maintenance Chemotherapy in Patients With Glioblastoma (Brain-RF)",
+          "phase": "Not Applicable",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Charite University, Berlin, Germany",
+          "enrollment": "26",
+          "start_date": "2023-11-15",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06140875",
+              "url": "https://clinicaltrials.gov/study/NCT06140875",
+              "title": "Amplitude Modulated Radiofrequency Electromagnetic Field Treatment Combined With Radiochemotherapy and Maintenance Chemotherapy in Patients With Glioblastoma (Brain-RF)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "NA"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-11-15"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Charite University, Berlin, Germany"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06954636",
+          "title": "Prognostic Potential of Olfactory Function in Glioblastoma: a Prospective Observational Study",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Sied Kebir",
+          "enrollment": "128",
+          "start_date": "2023-05-03",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06954636",
+              "url": "https://clinicaltrials.gov/study/NCT06954636",
+              "title": "Prognostic Potential of Olfactory Function in Glioblastoma: a Prospective Observational Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-05-03"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Sied Kebir"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "128"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06146738",
+          "title": "The PALSUR-study: Palliative Care Versus Surgery in High-grade Glioma Patients (ENCRAM 2203)",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Jasper Gerritsen",
+          "enrollment": "1015",
+          "start_date": "2023-01-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06146738",
+              "url": "https://clinicaltrials.gov/study/NCT06146738",
+              "title": "The PALSUR-study: Palliative Care Versus Surgery in High-grade Glioma Patients (ENCRAM 2203)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-01-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Jasper Gerritsen"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "1015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06146725",
+          "title": "The RESBIOP-study: Resection Versus Biopsy in High-grade Glioma Patients (ENCRAM 2202)",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Jasper Gerritsen",
+          "enrollment": "564",
+          "start_date": "2023-01-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06146725",
+              "url": "https://clinicaltrials.gov/study/NCT06146725",
+              "title": "The RESBIOP-study: Resection Versus Biopsy in High-grade Glioma Patients (ENCRAM 2202)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-01-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Jasper Gerritsen"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "564"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06283927",
+          "title": "The RECSUR-study: Resection Versus Best Oncological Treatment for Recurrent Glioblastoma (ENCRAM 2302)",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Jasper Gerritsen",
+          "enrollment": "464",
+          "start_date": "2023-01-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06283927",
+              "url": "https://clinicaltrials.gov/study/NCT06283927",
+              "title": "The RECSUR-study: Resection Versus Best Oncological Treatment for Recurrent Glioblastoma (ENCRAM 2302)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-01-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Jasper Gerritsen"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "464"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06273176",
+          "title": "The RECMAP-study: Resection With or Without Intraoperative Mapping for Recurrent Glioblastoma",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2023",
+          "sponsor": "Erasmus Medical Center",
+          "enrollment": "225",
+          "start_date": "2023-01-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06273176",
+              "url": "https://clinicaltrials.gov/study/NCT06273176",
+              "title": "The RECMAP-study: Resection With or Without Intraoperative Mapping for Recurrent Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-01-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Erasmus Medical Center"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "225"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT05590689",
+          "title": "Radiodynamic Therapy (RDT) With Gliolan in Patients With First Recurrence of Brain Tumor",
+          "phase": "Phase 1/Phase 2",
+          "status": "Recruiting",
+          "start_year": "2022",
+          "sponsor": "Universität Münster",
+          "enrollment": "34",
+          "start_date": "2022-11-09",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT05590689",
+              "url": "https://clinicaltrials.gov/study/NCT05590689",
+              "title": "Radiodynamic Therapy (RDT) With Gliolan in Patients With First Recurrence of Brain Tumor",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE1, PHASE2"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-11-09"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Universität Münster"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT06118723",
+          "title": "The SUPRAMAX Study: Supramaximal Resection Versus Maximal Resection for High-Grade Glioma Patients (ENCRAM 2201)",
+          "phase": "Unknown",
+          "status": "Recruiting",
+          "start_year": "2022",
+          "sponsor": "Jasper Gerritsen",
+          "enrollment": "784",
+          "start_date": "2022-01-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06118723",
+              "url": "https://clinicaltrials.gov/study/NCT06118723",
+              "title": "The SUPRAMAX Study: Supramaximal Resection Versus Maximal Resection for High-Grade Glioma Patients (ENCRAM 2201)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-01-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Jasper Gerritsen"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "784"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT04752280",
+          "title": "Glioblastoma Radiotherapy Using IMRT or Proton Beams",
+          "phase": "Not Applicable",
+          "status": "Recruiting",
+          "start_year": "2021",
+          "sponsor": "University Hospital Heidelberg",
+          "enrollment": "326",
+          "start_date": "2021-04-19",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT04752280",
+              "url": "https://clinicaltrials.gov/study/NCT04752280",
+              "title": "Glioblastoma Radiotherapy Using IMRT or Proton Beams",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "NA"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-04-19"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "University Hospital Heidelberg"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "326"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03970447",
+          "title": "A Trial to Evaluate Multiple Regimens in Newly Diagnosed and Recurrent Glioblastoma",
+          "phase": "Phase 2/Phase 3",
+          "status": "Recruiting",
+          "start_year": "2019",
+          "sponsor": "Global Coalition for Adaptive Research",
+          "enrollment": "2250",
+          "start_date": "2019-07-30",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03970447",
+              "url": "https://clinicaltrials.gov/study/NCT03970447",
+              "title": "A Trial to Evaluate Multiple Regimens in Newly Diagnosed and Recurrent Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE2, PHASE3"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-07-30"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Global Coalition for Adaptive Research"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "2250"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT03383978",
+          "title": "Intracranial Injection of NK-92/5.28.z Cells in Combination With Intravenous Ezabenlimab in Patients With Recurrent HER2-positive Glioblastoma",
+          "phase": "Phase 1",
+          "status": "Recruiting",
+          "start_year": "2017",
+          "sponsor": "Johann Wolfgang Goethe University Hospital",
+          "enrollment": "42",
+          "start_date": "2017-12-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03383978",
+              "url": "https://clinicaltrials.gov/study/NCT03383978",
+              "title": "Intracranial Injection of NK-92/5.28.z Cells in Combination With Intravenous Ezabenlimab in Patients With Recurrent HER2-positive Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE1"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-12-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Johann Wolfgang Goethe University Hospital"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "42"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nct_id": "NCT02394626",
+          "title": "Surgery for Recurrent Glioblastoma",
+          "phase": "Phase 2",
+          "status": "Recruiting",
+          "start_year": "2015",
+          "sponsor": "Insel Gruppe AG, University Hospital Bern",
+          "enrollment": "120",
+          "start_date": "2015-05-01",
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02394626",
+              "url": "https://clinicaltrials.gov/study/NCT02394626",
+              "title": "Surgery for Recurrent Glioblastoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.designModule.phases",
+                  "text": "PHASE2"
+                },
+                {
+                  "field": "protocolSection.statusModule.overallStatus",
+                  "text": "RECRUITING"
+                },
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-05-01"
+                },
+                {
+                  "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                  "text": "Insel Gruppe AG, University Hospital Bern"
+                },
+                {
+                  "field": "protocolSection.designModule.enrollmentInfo.count",
+                  "text": "120"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": {
+        "orientation": null,
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": null,
+        "bipartite": null
+      }
+    },
+    "meta": {
+      "query": "List recruiting trials for glioblastoma in Germany",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "condition": "glioblastoma",
+        "country": "Germany",
+        "statuses": [
+          "RECRUITING"
+        ]
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "list",
+        "rationale": "Return a table of individual trials currently recruiting for glioblastoma with at least one site in Germany.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "list",
+          "filters": {
+            "condition": "glioblastoma",
+            "country": "Germany",
+            "statuses": [
+              "RECRUITING"
+            ]
+          },
+          "cohorts": [],
+          "chart_type": "table",
+          "top_n": 15,
+          "rationale": "Return a table of individual trials currently recruiting for glioblastoma with at least one site in Germany."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 6732,
+            "input_tokens": 2715,
+            "output_tokens": 520,
+            "reasoning_tokens": 256,
+            "confidence": "high",
+            "cost_usd": 0.001143
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Glioblastoma · Germany · Recruiting",
+          "total_matching": 22,
+          "analyzed": 22,
+          "truncated": false,
+          "api_params": {
+            "query.cond": "glioblastoma",
+            "filter.overallStatus": "RECRUITING",
+            "filter.advanced": "AREA[LocationCountry]\"Germany\"",
+            "sort": "StartDate:desc"
+          }
+        }
+      ],
+      "counting_rule": "One row per trial.",
+      "sort": "start date descending",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort",
+        "enrollment": "participants"
+      },
+      "warnings": [],
+      "notes": [],
+      "generated_at": "2026-10-21T18:12:08+00:00",
+      "elapsed_ms": 6878,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

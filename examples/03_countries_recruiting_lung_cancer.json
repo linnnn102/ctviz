@@ -1,0 +1,585 @@
+{
+  "request": {
+    "query": "Which countries have the most recruiting trials for lung cancer?",
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Trials by country — Lung cancer · Recruiting",
+      "subtitle": null,
+      "encoding": {
+        "x": {
+          "field": "country",
+          "type": "nominal",
+          "title": "Country",
+          "unit": null,
+          "sort": [
+            "China",
+            "United States",
+            "France",
+            "Spain",
+            "Italy",
+            "Australia",
+            "South Korea",
+            "United Kingdom",
+            "Canada",
+            "Germany",
+            "Taiwan",
+            "Japan",
+            "Netherlands",
+            "Belgium",
+            "Poland"
+          ],
+          "aggregate": null
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of trials",
+          "unit": "trials",
+          "sort": null,
+          "aggregate": "sum"
+        },
+        "series": null,
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": null,
+        "columns": null
+      },
+      "data": [
+        {
+          "country": "China",
+          "percent": 39.2,
+          "trial_count": 904,
+          "citation_count": 904,
+          "citations": [
+            {
+              "nct_id": "NCT07561567",
+              "url": "https://clinicaltrials.gov/study/NCT07561567",
+              "title": "Feasibility and Effectiveness of Respiratory Movement Management in Lung Cancer Receiving Stereotactic Radiotherapy Using a Novel Positional Fixation Device",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "China"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[56].country",
+                  "text": "China"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "United States",
+          "percent": 38.3,
+          "trial_count": 883,
+          "citation_count": 883,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "United States"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07207395",
+              "url": "https://clinicaltrials.gov/study/NCT07207395",
+              "title": "A Study of Orally Administered JBI-802 Alone or in Combination With Pembrolizumab for Patients With Non-small Cell Lung Cancer With an STK11 Mutation.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "United States"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "France",
+          "percent": 10.6,
+          "trial_count": 245,
+          "citation_count": 245,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[58].country",
+                  "text": "France"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06855771",
+              "url": "https://clinicaltrials.gov/study/NCT06855771",
+              "title": "A Study of Navlimetostat (BMS-986504) Alone or in Combination With Izalontamab Brengitecan in Participants With Pre-treated Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With Homozygous MTAP Deletion or MTAP Loss (MountainTAP-9)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[22].country",
+                  "text": "France"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Spain",
+          "percent": 9.3,
+          "trial_count": 215,
+          "citation_count": 215,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[72].country",
+                  "text": "Spain"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07284121",
+              "url": "https://clinicaltrials.gov/study/NCT07284121",
+              "title": "A Study to Evaluate Patient-Reported Satisfaction, Effectiveness, and Safety of Atezolizumab in Participants Treated in Routine Clinical Practice",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[54].country",
+                  "text": "Spain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Italy",
+          "percent": 9.1,
+          "trial_count": 210,
+          "citation_count": 210,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[62].country",
+                  "text": "Italy"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06862934",
+              "url": "https://clinicaltrials.gov/study/NCT06862934",
+              "title": "Liver Transplantation for Unresectable Intrahepatic Colangiocarcinoma After Sustained Response to Neoadjuvant Treatments",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "Italy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Australia",
+          "percent": 6.9,
+          "trial_count": 158,
+          "citation_count": 158,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[54].country",
+                  "text": "Australia"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06855771",
+              "url": "https://clinicaltrials.gov/study/NCT06855771",
+              "title": "A Study of Navlimetostat (BMS-986504) Alone or in Combination With Izalontamab Brengitecan in Participants With Pre-treated Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With Homozygous MTAP Deletion or MTAP Loss (MountainTAP-9)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[10].country",
+                  "text": "Australia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "South Korea",
+          "percent": 6.6,
+          "trial_count": 152,
+          "citation_count": 152,
+          "citations": [
+            {
+              "nct_id": "NCT07035587",
+              "url": "https://clinicaltrials.gov/study/NCT07035587",
+              "title": "Diagnosis of Multiple Cancer and Monitoring of Minimal Residual Tumors After Treatment Using Blood and High-Sensitivity Genetic Analysis Techniques",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "South Korea"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07472517",
+              "url": "https://clinicaltrials.gov/study/NCT07472517",
+              "title": "DAREON ® -Lung-1: A Study in People With Advanced Small Cell Lung Cancer to Compare Obrixtamig Plus Atezolizumab, Carboplatin, and Etoposide Treatment With Standard Chemoimmunotherapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[183].country",
+                  "text": "South Korea"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "United Kingdom",
+          "percent": 6.4,
+          "trial_count": 147,
+          "citation_count": 147,
+          "citations": [
+            {
+              "nct_id": "NCT07284121",
+              "url": "https://clinicaltrials.gov/study/NCT07284121",
+              "title": "A Study to Evaluate Patient-Reported Satisfaction, Effectiveness, and Safety of Atezolizumab in Participants Treated in Routine Clinical Practice",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[87].country",
+                  "text": "United Kingdom"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06855771",
+              "url": "https://clinicaltrials.gov/study/NCT06855771",
+              "title": "A Study of Navlimetostat (BMS-986504) Alone or in Combination With Izalontamab Brengitecan in Participants With Pre-treated Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With Homozygous MTAP Deletion or MTAP Loss (MountainTAP-9)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[64].country",
+                  "text": "United Kingdom"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Canada",
+          "percent": 6.1,
+          "trial_count": 140,
+          "citation_count": 140,
+          "citations": [
+            {
+              "nct_id": "NCT07472517",
+              "url": "https://clinicaltrials.gov/study/NCT07472517",
+              "title": "DAREON ® -Lung-1: A Study in People With Advanced Small Cell Lung Cancer to Compare Obrixtamig Plus Atezolizumab, Carboplatin, and Etoposide Treatment With Standard Chemoimmunotherapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[39].country",
+                  "text": "Canada"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07090499",
+              "url": "https://clinicaltrials.gov/study/NCT07090499",
+              "title": "A Study to Learn About the Study Medicine Called PF-08046876 in People With Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[21].country",
+                  "text": "Canada"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Germany",
+          "percent": 6.1,
+          "trial_count": 140,
+          "citation_count": 140,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[60].country",
+                  "text": "Germany"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06252233",
+              "url": "https://clinicaltrials.gov/study/NCT06252233",
+              "title": "Improvement of Quality of Life (QoL) Using Preference-Oriented QoLMonitoring in Patients with Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "Germany"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Taiwan",
+          "percent": 5.7,
+          "trial_count": 132,
+          "citation_count": 132,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[79].country",
+                  "text": "Taiwan"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07472517",
+              "url": "https://clinicaltrials.gov/study/NCT07472517",
+              "title": "DAREON ® -Lung-1: A Study in People With Advanced Small Cell Lung Cancer to Compare Obrixtamig Plus Atezolizumab, Carboplatin, and Etoposide Treatment With Standard Chemoimmunotherapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[215].country",
+                  "text": "Taiwan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Japan",
+          "percent": 5.7,
+          "trial_count": 131,
+          "citation_count": 131,
+          "citations": [
+            {
+              "nct_id": "NCT07226999",
+              "url": "https://clinicaltrials.gov/study/NCT07226999",
+              "title": "Symbiotic-Lung-04: A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Extensive-Stage Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[65].country",
+                  "text": "Japan"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06855771",
+              "url": "https://clinicaltrials.gov/study/NCT06855771",
+              "title": "A Study of Navlimetostat (BMS-986504) Alone or in Combination With Izalontamab Brengitecan in Participants With Pre-treated Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With Homozygous MTAP Deletion or MTAP Loss (MountainTAP-9)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[42].country",
+                  "text": "Japan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Netherlands",
+          "percent": 4.6,
+          "trial_count": 107,
+          "citation_count": 107,
+          "citations": [
+            {
+              "nct_id": "NCT07472517",
+              "url": "https://clinicaltrials.gov/study/NCT07472517",
+              "title": "DAREON ® -Lung-1: A Study in People With Advanced Small Cell Lung Cancer to Compare Obrixtamig Plus Atezolizumab, Carboplatin, and Etoposide Treatment With Standard Chemoimmunotherapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[161].country",
+                  "text": "Netherlands"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07511933",
+              "url": "https://clinicaltrials.gov/study/NCT07511933",
+              "title": "Novel Ga68-PSMA PET/CT-tracer to Differentiate Between Radiation Necrosis and Tumor Progression in Brain Metastases",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "Netherlands"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Belgium",
+          "percent": 4.2,
+          "trial_count": 96,
+          "citation_count": 96,
+          "citations": [
+            {
+              "nct_id": "NCT07284121",
+              "url": "https://clinicaltrials.gov/study/NCT07284121",
+              "title": "A Study to Evaluate Patient-Reported Satisfaction, Effectiveness, and Safety of Atezolizumab in Participants Treated in Routine Clinical Practice",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[4].country",
+                  "text": "Belgium"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07472517",
+              "url": "https://clinicaltrials.gov/study/NCT07472517",
+              "title": "DAREON ® -Lung-1: A Study in People With Advanced Small Cell Lung Cancer to Compare Obrixtamig Plus Atezolizumab, Carboplatin, and Etoposide Treatment With Standard Chemoimmunotherapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[28].country",
+                  "text": "Belgium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "country": "Poland",
+          "percent": 3.9,
+          "trial_count": 91,
+          "citation_count": 91,
+          "citations": [
+            {
+              "nct_id": "NCT07270263",
+              "url": "https://clinicaltrials.gov/study/NCT07270263",
+              "title": "Reduced-Dose Apixaban and Rivaroxaban Versus Low-Molecular-Weight Heparin in Patients With Hematologic Malignancies",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[0].country",
+                  "text": "Poland"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07284121",
+              "url": "https://clinicaltrials.gov/study/NCT07284121",
+              "title": "A Study to Evaluate Patient-Reported Satisfaction, Effectiveness, and Safety of Atezolizumab in Participants Treated in Routine Clinical Practice",
+              "excerpts": [
+                {
+                  "field": "protocolSection.contactsLocationsModule.locations[39].country",
+                  "text": "Poland"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": null,
+        "bipartite": null
+      }
+    },
+    "meta": {
+      "query": "Which countries have the most recruiting trials for lung cancer?",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "condition": "lung cancer",
+        "statuses": [
+          "RECRUITING"
+        ]
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "distribution",
+        "rationale": "Count recruiting trials that list lung cancer as a condition and aggregate by country to show which countries host the most such trials.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "distribution",
+          "group_by": "country",
+          "filters": {
+            "condition": "lung cancer",
+            "statuses": [
+              "RECRUITING"
+            ]
+          },
+          "cohorts": [],
+          "chart_type": "bar_chart",
+          "top_n": 15,
+          "rationale": "Count recruiting trials that list lung cancer as a condition and aggregate by country to show which countries host the most such trials."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 5368,
+            "input_tokens": 2716,
+            "output_tokens": 407,
+            "reasoning_tokens": 128,
+            "confidence": "high",
+            "cost_usd": 0.000917
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Lung cancer · Recruiting",
+          "total_matching": 2305,
+          "analyzed": 2305,
+          "truncated": false,
+          "api_params": {
+            "query.cond": "lung cancer",
+            "filter.overallStatus": "RECRUITING"
+          }
+        }
+      ],
+      "counting_rule": "Each trial is counted once per distinct country it lists, so one trial can contribute to several categories and category totals can exceed the number of trials. `percent` is the share of analyzed trials in the cohort.",
+      "sort": "trial_count descending (encoding.x.sort)",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [],
+      "notes": [
+        "showing top 15 of 77 distinct country values"
+      ],
+      "generated_at": "2026-10-21T18:11:03+00:00",
+      "elapsed_ms": 6977,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

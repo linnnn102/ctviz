@@ -1,0 +1,1824 @@
+{
+  "ceiling": {
+    "model": "gpt-5.4",
+    "runs": 1,
+    "n": 50,
+    "exact": 0.98,
+    "exact_range": [
+      0.98,
+      0.98
+    ],
+    "component_acc": 0.9971428571428572,
+    "per_component": {
+      "intent": 1,
+      "dims": 1,
+      "series_by": 1,
+      "entities": 0.98,
+      "enums": 1,
+      "years": 1,
+      "cohorts": 1
+    },
+    "cost_per_query": 0.007891819999999999,
+    "latency_p50_ms": 4229.5,
+    "latency_p95_ms": 7489,
+    "errors": 0,
+    "misses": [
+      {
+        "id": "trend-05",
+        "error": null,
+        "pred": {
+          "intent": "time_trend",
+          "dims": "first_posted_year",
+          "series_by": null,
+          "entities": {
+            "term": "car t"
+          },
+          "enums": {},
+          "years": [
+            null,
+            null
+          ],
+          "cohorts": []
+        },
+        "ref": {
+          "intent": "time_trend",
+          "dims": "first_posted_year",
+          "series_by": null,
+          "entities": {
+            "intervention": "car t"
+          },
+          "enums": {},
+          "years": [
+            null,
+            null
+          ],
+          "cohorts": []
+        },
+        "wrong": [
+          "entities"
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "model": "gpt-5-mini",
+      "runs": 2,
+      "n": 50,
+      "exact": 0.9299999999999999,
+      "exact_range": [
+        0.92,
+        0.94
+      ],
+      "component_acc": 0.99,
+      "per_component": {
+        "intent": 1,
+        "dims": 0.98,
+        "series_by": 1,
+        "entities": 0.98,
+        "enums": 0.99,
+        "years": 0.98,
+        "cohorts": 1
+      },
+      "cost_per_query": 0.001059544,
+      "latency_p50_ms": 5155.5,
+      "latency_p95_ms": 7165,
+      "errors": 0,
+      "misses": [
+        {
+          "id": "trend-05",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "first_posted_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              2026
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "geo-04",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "term": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "intervention": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "scat-02",
+          "error": null,
+          "pred": {
+            "intent": "scatter",
+            "dims": [
+              "site_count",
+              "enrollment"
+            ],
+            "series_by": null,
+            "entities": {
+              "term": "oncology"
+            },
+            "enums": {
+              "sponsor_classes": [
+                "NIH"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "scatter",
+            "dims": [
+              "site_count",
+              "enrollment"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "oncology"
+            },
+            "enums": {
+              "sponsor_classes": [
+                "NIH"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2022,
+              2026
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "net-03",
+          "error": null,
+          "pred": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {
+              "study_type": "INTERVENTIONAL"
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "enums"
+          ]
+        },
+        {
+          "id": "hist-02",
+          "error": null,
+          "pred": {
+            "intent": "histogram",
+            "dims": "enrollment",
+            "series_by": null,
+            "entities": {
+              "condition": "alzheimer disease"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "histogram",
+            "dims": "duration_months",
+            "series_by": null,
+            "entities": {
+              "condition": "alzheimer"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        }
+      ],
+      "cascade_exact": 0.94,
+      "cascade_cost_per_query": 0.0017045740000000004,
+      "escalation_rate": 0.07,
+      "cascade_latency_p50_ms": 5345.0
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "runs": 2,
+      "n": 50,
+      "exact": 0.78,
+      "exact_range": [
+        0.74,
+        0.82
+      ],
+      "component_acc": 0.9614285714285713,
+      "per_component": {
+        "intent": 0.98,
+        "dims": 0.93,
+        "series_by": 1,
+        "entities": 0.88,
+        "enums": 0.98,
+        "years": 0.98,
+        "cohorts": 0.98
+      },
+      "cost_per_query": 0.0005752827,
+      "latency_p50_ms": 2322.5,
+      "latency_p95_ms": 3769,
+      "errors": 0,
+      "misses": [
+        {
+          "id": "trend-05",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "term": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "first_posted_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims",
+            "entities"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "dist-07",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "condition",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "condition",
+            "series_by": null,
+            "entities": {
+              "intervention": "keytruda"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "cmp-04",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              2018,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": [
+              "{\"e\": {\"intervention\": \"semaglutide\"}, \"n\": {}, \"y\": [2018, null]}",
+              "{\"e\": {\"intervention\": \"tirzepatide\"}, \"n\": {}, \"y\": [2018, null]}"
+            ]
+          },
+          "wrong": [
+            "years",
+            "cohorts"
+          ]
+        },
+        {
+          "id": "cmp-07",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "status",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "status",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": [
+              "{\"e\": {\"intervention\": \"adalimumab\"}, \"n\": {}, \"y\": [null, null]}",
+              "{\"e\": {\"intervention\": \"etanercept\"}, \"n\": {}, \"y\": [null, null]}",
+              "{\"e\": {\"intervention\": \"infliximab\"}, \"n\": {}, \"y\": [null, null]}"
+            ]
+          },
+          "wrong": [
+            "cohorts"
+          ]
+        },
+        {
+          "id": "geo-04",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "term": "malaria vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "intervention": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "net-03",
+          "error": null,
+          "pred": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {
+              "study_type": "INTERVENTIONAL"
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "enums"
+          ]
+        },
+        {
+          "id": "net-04",
+          "error": null,
+          "pred": {
+            "intent": "network",
+            "dims": [
+              "condition",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "network",
+            "dims": [
+              "condition",
+              "condition"
+            ],
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "hist-02",
+          "error": null,
+          "pred": {
+            "intent": "histogram",
+            "dims": "duration_months",
+            "series_by": null,
+            "entities": {
+              "term": "alzheimer"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "histogram",
+            "dims": "duration_months",
+            "series_by": null,
+            "entities": {
+              "condition": "alzheimer"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "hist-03",
+          "error": null,
+          "pred": {
+            "intent": "histogram",
+            "dims": "enrollment",
+            "series_by": null,
+            "entities": {
+              "condition": "rheumatoid arthritis"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "histogram",
+            "dims": "site_count",
+            "series_by": null,
+            "entities": {
+              "condition": "rheumatoid arthritis"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "count-01",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "term": "semaglutide"
+            },
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "count-02",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "years": [
+              2020,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "intervention": "nivolumab"
+            },
+            "enums": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "years": [
+              2020,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "list-02",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "sponsor": "genentech"
+            },
+            "enums": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "list",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "sponsor": "genentech"
+            },
+            "enums": {
+              "phases": [
+                "PHASE1"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "intent",
+            "dims"
+          ]
+        },
+        {
+          "id": "trend-02",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "term": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              2015,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              2015,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "trend-05",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "term": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "first_posted_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims",
+            "entities"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2022,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "dist-03",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "sponsor",
+            "series_by": null,
+            "entities": {
+              "condition": "type 2 diabetes"
+            },
+            "enums": {
+              "phases": [
+                "PHASE3"
+              ],
+              "study_type": "INTERVENTIONAL"
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "sponsor",
+            "series_by": null,
+            "entities": {
+              "condition": "type 2 diabetes"
+            },
+            "enums": {
+              "phases": [
+                "PHASE3"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "enums"
+          ]
+        },
+        {
+          "id": "dist-06",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "drug",
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "drug",
+            "series_by": null,
+            "entities": {
+              "condition": "glioblastoma"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "dist-09",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "condition": "hepatitis c"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "has_results",
+            "series_by": null,
+            "entities": {
+              "condition": "hepatitis c"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "intent",
+            "dims"
+          ]
+        },
+        {
+          "id": "geo-04",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "term": "malaria vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "intervention": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "hist-02",
+          "error": null,
+          "pred": {
+            "intent": "histogram",
+            "dims": "enrollment",
+            "series_by": null,
+            "entities": {
+              "condition": "alzheimer"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "histogram",
+            "dims": "duration_months",
+            "series_by": null,
+            "entities": {
+              "condition": "alzheimer"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "count-01",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        }
+      ],
+      "cascade_exact": 0.86,
+      "cascade_cost_per_query": 0.0021156777,
+      "escalation_rate": 0.17,
+      "cascade_latency_p50_ms": 2546.0
+    },
+    {
+      "model": "gpt-4.1-mini",
+      "runs": 2,
+      "n": 50,
+      "exact": 0.86,
+      "exact_range": [
+        0.84,
+        0.88
+      ],
+      "component_acc": 0.9799999999999999,
+      "per_component": {
+        "intent": 0.98,
+        "dims": 0.98,
+        "series_by": 1,
+        "entities": 0.95,
+        "enums": 0.98,
+        "years": 0.97,
+        "cohorts": 1
+      },
+      "cost_per_query": 0.0007829920000000001,
+      "latency_p50_ms": 1754.5,
+      "latency_p95_ms": 2787,
+      "errors": 0,
+      "misses": [
+        {
+          "id": "trend-05",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "first_posted_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "trend-06",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "completion_year",
+            "series_by": null,
+            "entities": {
+              "condition": "obesity"
+            },
+            "enums": {},
+            "years": [
+              2010,
+              2025
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "completion_year",
+            "series_by": null,
+            "entities": {
+              "condition": "obesity"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              2026
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "geo-04",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "intervention": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "net-03",
+          "error": null,
+          "pred": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {
+              "study_type": "INTERVENTIONAL"
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "enums"
+          ]
+        },
+        {
+          "id": "typo-01",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "phase",
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumb"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "phase",
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "robust-02",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "sponsor_class",
+            "series_by": null,
+            "entities": {
+              "condition": "heart failure",
+              "intervention": "device"
+            },
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ],
+              "study_type": "INTERVENTIONAL",
+              "intervention_types": [
+                "DEVICE"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "sponsor_class",
+            "series_by": null,
+            "entities": {
+              "condition": "heart failure"
+            },
+            "enums": {
+              "statuses": [
+                "RECRUITING"
+              ],
+              "study_type": "INTERVENTIONAL",
+              "intervention_types": [
+                "DEVICE"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "robust-03",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "list",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "intent"
+          ]
+        },
+        {
+          "id": "trend-05",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "first_posted_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "car t"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "dims"
+          ]
+        },
+        {
+          "id": "trend-07",
+          "error": null,
+          "pred": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              2026
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "time_trend",
+            "dims": "start_year",
+            "series_by": null,
+            "entities": {
+              "intervention": "semaglutide"
+            },
+            "enums": {},
+            "years": [
+              2021,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "years"
+          ]
+        },
+        {
+          "id": "geo-04",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "country",
+            "series_by": null,
+            "entities": {
+              "condition": "malaria",
+              "intervention": "vaccine"
+            },
+            "enums": {
+              "statuses": [
+                "ACTIVE_NOT_RECRUITING",
+                "ENROLLING_BY_INVITATION",
+                "RECRUITING"
+              ]
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "net-03",
+          "error": null,
+          "pred": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {
+              "study_type": "INTERVENTIONAL"
+            },
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "network",
+            "dims": [
+              "drug",
+              "drug"
+            ],
+            "series_by": null,
+            "entities": {
+              "condition": "multiple myeloma"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "enums"
+          ]
+        },
+        {
+          "id": "typo-01",
+          "error": null,
+          "pred": {
+            "intent": "distribution",
+            "dims": "phase",
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumb"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "distribution",
+            "dims": "phase",
+            "series_by": null,
+            "entities": {
+              "intervention": "pembrolizumab"
+            },
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "entities"
+          ]
+        },
+        {
+          "id": "robust-03",
+          "error": null,
+          "pred": {
+            "intent": "count",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "ref": {
+            "intent": "list",
+            "dims": null,
+            "series_by": null,
+            "entities": {},
+            "enums": {},
+            "years": [
+              null,
+              null
+            ],
+            "cohorts": []
+          },
+          "wrong": [
+            "intent"
+          ]
+        }
+      ],
+      "cascade_exact": 0.88,
+      "cascade_cost_per_query": 0.0020532819999999996,
+      "escalation_rate": 0.13,
+      "cascade_latency_p50_ms": 1761.5
+    }
+  ],
+  "pick": "gpt-5-mini",
+  "why": "best cascaded exact-match = 94.0%; eligible (within 3 pp): gpt-5-mini; cheapest eligible = gpt-5-mini at $0.00170/request"
+}

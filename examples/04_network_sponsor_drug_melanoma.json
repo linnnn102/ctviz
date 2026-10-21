@@ -1,0 +1,3566 @@
+{
+  "request": {
+    "query": "Show a network of sponsors ↔ drugs for melanoma trials",
+    "top_n": 12,
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "network_graph",
+      "title": "Lead sponsor ↔ Drug network — Melanoma",
+      "subtitle": "Edge weight = number of trials linking the lead sponsor and drug",
+      "encoding": {
+        "x": null,
+        "y": null,
+        "series": null,
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": {
+          "node_id": "id",
+          "node_label": "label",
+          "node_type": "type",
+          "node_size": "trial_count",
+          "edge_source": "source",
+          "edge_target": "target",
+          "edge_weight": "weight"
+        },
+        "columns": null
+      },
+      "data": {
+        "nodes": [
+          {
+            "id": "drug:pembrolizumab",
+            "label": "Pembrolizumab",
+            "type": "drug",
+            "degree": 10,
+            "is_query_entity": false,
+            "trial_count": 315,
+            "citation_count": 315,
+            "citations": [
+              {
+                "nct_id": "NCT05620134",
+                "url": "https://clinicaltrials.gov/study/NCT05620134",
+                "title": "Study of JK08 in Patients with Unresectable Locally Advanced or Metastatic Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02332668",
+                "url": "https://clinicaltrials.gov/study/NCT02332668",
+                "title": "A Study of Pembrolizumab (MK-3475) in Pediatric Participants With an Advanced Solid Tumor or Lymphoma (MK-3475-051/KEYNOTE-051)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:ipilimumab",
+            "label": "Ipilimumab",
+            "type": "drug",
+            "degree": 9,
+            "is_query_entity": false,
+            "trial_count": 268,
+            "citation_count": 268,
+            "citations": [
+              {
+                "nct_id": "NCT02275416",
+                "url": "https://clinicaltrials.gov/study/NCT02275416",
+                "title": "Safety of UV1 Vaccination in Combination With Ipilimumab in Patients With Unresectable or Metastatic Malignant Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02272855",
+                "url": "https://clinicaltrials.gov/study/NCT02272855",
+                "title": "A Study of Combination Treatment With HF10 and Ipilimumab in Patients With Unresectable or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "HF10 plus Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:nivolumab",
+            "label": "Nivolumab",
+            "type": "drug",
+            "degree": 8,
+            "is_query_entity": false,
+            "trial_count": 261,
+            "citation_count": 261,
+            "citations": [
+              {
+                "nct_id": "NCT03475134",
+                "url": "https://clinicaltrials.gov/study/NCT03475134",
+                "title": "TIL-ACT After NMA Chemo with IL-2 and Nivo Rescue in Metastatic Melanoma (mMEL)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05061017",
+                "url": "https://clinicaltrials.gov/study/NCT05061017",
+                "title": "Pixatimod (PG545) Plus Nivolumab in PD-1 Relapsed/Refractory Metastatic Melanoma and NSCLC and With Nivolumab and Low-dose Cyclophosphamide in MSS Metastatic Colorectal Carcinoma (mCRC)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:national cancer institute nci",
+            "label": "National Cancer Institute (NCI)",
+            "type": "sponsor",
+            "degree": 12,
+            "is_query_entity": false,
+            "trial_count": 227,
+            "citation_count": 227,
+            "citations": [
+              {
+                "nct_id": "NCT00349206",
+                "url": "https://clinicaltrials.gov/study/NCT00349206",
+                "title": "Sorafenib and Temsirolimus in Treating Patients With Metastatic, Recurrent, or Unresectable Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00046189",
+                "url": "https://clinicaltrials.gov/study/NCT00046189",
+                "title": "Cancer Risk in Carriers of the Gene for Xeroderma Pigmentosum",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:cyclophosphamide",
+            "label": "Cyclophosphamide",
+            "type": "drug",
+            "degree": 4,
+            "is_query_entity": false,
+            "trial_count": 134,
+            "citation_count": 134,
+            "citations": [
+              {
+                "nct_id": "NCT03475134",
+                "url": "https://clinicaltrials.gov/study/NCT03475134",
+                "title": "TIL-ACT After NMA Chemo with IL-2 and Nivo Rescue in Metastatic Melanoma (mMEL)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05061017",
+                "url": "https://clinicaltrials.gov/study/NCT05061017",
+                "title": "Pixatimod (PG545) Plus Nivolumab in PD-1 Relapsed/Refractory Metastatic Melanoma and NSCLC and With Nivolumab and Low-dose Cyclophosphamide in MSS Metastatic Colorectal Carcinoma (mCRC)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cyclophosphamide (low dose)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:m d anderson cancer center",
+            "label": "M.D. Anderson Cancer Center",
+            "type": "sponsor",
+            "degree": 12,
+            "is_query_entity": false,
+            "trial_count": 118,
+            "citation_count": 118,
+            "citations": [
+              {
+                "nct_id": "NCT03175432",
+                "url": "https://clinicaltrials.gov/study/NCT03175432",
+                "title": "Bevacizumab and Atezolizumab With or Without Cobimetinib in Treating Patients With Untreated Melanoma Brain Metastases",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00861406",
+                "url": "https://clinicaltrials.gov/study/NCT00861406",
+                "title": "Adjuvant Therapy of Pegylated Interferon- 2b Plus Melanoma Peptide Vaccine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:aldesleukin",
+            "label": "Aldesleukin",
+            "type": "drug",
+            "degree": 2,
+            "is_query_entity": false,
+            "trial_count": 105,
+            "citation_count": 105,
+            "citations": [
+              {
+                "nct_id": "NCT00045149",
+                "url": "https://clinicaltrials.gov/study/NCT00045149",
+                "title": "Biological Therapy in Treating Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "aldesleukin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01993719",
+                "url": "https://clinicaltrials.gov/study/NCT01993719",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Aldesleukin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:bristol-myers squibb",
+            "label": "Bristol-Myers Squibb",
+            "type": "sponsor",
+            "degree": 5,
+            "is_query_entity": false,
+            "trial_count": 101,
+            "citation_count": 101,
+            "citations": [
+              {
+                "nct_id": "NCT00135408",
+                "url": "https://clinicaltrials.gov/study/NCT00135408",
+                "title": "A Study of MDX-010 (BMS-734016) Administered With or Without Prophylactic Oral Budesonide",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00803374",
+                "url": "https://clinicaltrials.gov/study/NCT00803374",
+                "title": "Combination of Anti-CD137 & Ipilimumab in Patients With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:temozolomide",
+            "label": "Temozolomide",
+            "type": "drug",
+            "degree": 7,
+            "is_query_entity": false,
+            "trial_count": 80,
+            "citation_count": 80,
+            "citations": [
+              {
+                "nct_id": "NCT00272415",
+                "url": "https://clinicaltrials.gov/study/NCT00272415",
+                "title": "A Study of Intravenous INO-1001 Plus Oral Temozolomide to Evaluate Tolerability, Safety, and Pharmacokinetics in Patients With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00104988",
+                "url": "https://clinicaltrials.gov/study/NCT00104988",
+                "title": "S0508: Thalidomide and Temozolomide in Treating Patients With Stage IV Melanoma That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:dacarbazine",
+            "label": "Dacarbazine",
+            "type": "drug",
+            "degree": 8,
+            "is_query_entity": false,
+            "trial_count": 77,
+            "citation_count": 77,
+            "citations": [
+              {
+                "nct_id": "NCT00864253",
+                "url": "https://clinicaltrials.gov/study/NCT00864253",
+                "title": "A Trial of ABI-007 Versus Dacarbazine in Previously Untreated Patients With Metastatic Malignant Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00580320",
+                "url": "https://clinicaltrials.gov/study/NCT00580320",
+                "title": "Safety Study of Dacarbazine and Bortezomib in Melanoma and Soft Tissue Sarcoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dacarbazine and bortezomib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:trametinib",
+            "label": "Trametinib",
+            "type": "drug",
+            "degree": 5,
+            "is_query_entity": false,
+            "trial_count": 77,
+            "citation_count": 77,
+            "citations": [
+              {
+                "nct_id": "NCT02410863",
+                "url": "https://clinicaltrials.gov/study/NCT02410863",
+                "title": "Biopsy- and Biology-driven Optimization of Targeted Therapy in Subjects With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT07440290",
+                "url": "https://clinicaltrials.gov/study/NCT07440290",
+                "title": "DETERMINE Trial Treatment Arm 07: Dabrafenib in Combination With Trametinib in Adult, Paediatric and Teenage/Young Adult Patients With BRAF V600 Mutation-Positive Cancers.",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:dabrafenib",
+            "label": "Dabrafenib",
+            "type": "drug",
+            "degree": 6,
+            "is_query_entity": false,
+            "trial_count": 76,
+            "citation_count": 76,
+            "citations": [
+              {
+                "nct_id": "NCT02410863",
+                "url": "https://clinicaltrials.gov/study/NCT02410863",
+                "title": "Biopsy- and Biology-driven Optimization of Targeted Therapy in Subjects With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03332589",
+                "url": "https://clinicaltrials.gov/study/NCT03332589",
+                "title": "E6201 Plus Dabrafenib for the Treatment of Metastatic Melanoma Central Nervous System Metastases (CNS)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "E6201 plus dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:vemurafenib",
+            "label": "Vemurafenib",
+            "type": "drug",
+            "degree": 6,
+            "is_query_entity": false,
+            "trial_count": 76,
+            "citation_count": 76,
+            "citations": [
+              {
+                "nct_id": "NCT01638676",
+                "url": "https://clinicaltrials.gov/study/NCT01638676",
+                "title": "A Phase I/II Trial of Vemurafenib and Metformin to Melanoma Patients",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02050321",
+                "url": "https://clinicaltrials.gov/study/NCT02050321",
+                "title": "A Phase II Study of Vemurafenib Combined With Acitretin in Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:memorial sloan kettering cancer center",
+            "label": "Memorial Sloan Kettering Cancer Center",
+            "type": "sponsor",
+            "degree": 5,
+            "is_query_entity": false,
+            "trial_count": 75,
+            "citation_count": 75,
+            "citations": [
+              {
+                "nct_id": "NCT00104845",
+                "url": "https://clinicaltrials.gov/study/NCT00104845",
+                "title": "Vaccine Therapy in Treating Patients With Stage IIB, Stage IIC, Stage III, or Stage IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00462982",
+                "url": "https://clinicaltrials.gov/study/NCT00462982",
+                "title": "Sunitinib in Treating Patients With Brain Metastases Caused by Kidney Cancer or Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:fludarabine",
+            "label": "Fludarabine",
+            "type": "drug",
+            "degree": 3,
+            "is_query_entity": false,
+            "trial_count": 63,
+            "citation_count": 63,
+            "citations": [
+              {
+                "nct_id": "NCT03475134",
+                "url": "https://clinicaltrials.gov/study/NCT03475134",
+                "title": "TIL-ACT After NMA Chemo with IL-2 and Nivo Rescue in Metastatic Melanoma (mMEL)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04596033",
+                "url": "https://clinicaltrials.gov/study/NCT04596033",
+                "title": "TiTAN-1: Safety, Proliferation and Persistence of GEN-011 Autologous Cell Therapy",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:novartis pharmaceuticals",
+            "label": "Novartis Pharmaceuticals",
+            "type": "sponsor",
+            "degree": 4,
+            "is_query_entity": false,
+            "trial_count": 52,
+            "citation_count": 52,
+            "citations": [
+              {
+                "nct_id": "NCT00304525",
+                "url": "https://clinicaltrials.gov/study/NCT00304525",
+                "title": "A Study to Evaluate RAF265, an Oral Drug Administered to Subjects With Locally Advanced or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04547946",
+                "url": "https://clinicaltrials.gov/study/NCT04547946",
+                "title": "Observational Study for Melanoma Adjuvant Treatment With Tafinlar® + Mekinist® (Dabrafenib + Trametinib)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:hoffmann-la roche",
+            "label": "Hoffmann-La Roche",
+            "type": "sponsor",
+            "degree": 6,
+            "is_query_entity": false,
+            "trial_count": 47,
+            "citation_count": 47,
+            "citations": [
+              {
+                "nct_id": "NCT01990248",
+                "url": "https://clinicaltrials.gov/study/NCT01990248",
+                "title": "An Observational Safety Study in Zelboraf (Vemurafenib)-Treated Patients With BRAF-V600 Mutation-Positive Unresectable or Metastatic Melanoma (ZeSS)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03875079",
+                "url": "https://clinicaltrials.gov/study/NCT03875079",
+                "title": "A Study to Evaluate Safety and Therapeutic Activity of RO6874281 in Combination with Pembrolizumab, in Participants with Advanced or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:mayo clinic",
+            "label": "Mayo Clinic",
+            "type": "sponsor",
+            "degree": 7,
+            "is_query_entity": false,
+            "trial_count": 47,
+            "citation_count": 47,
+            "citations": [
+              {
+                "nct_id": "NCT00835133",
+                "url": "https://clinicaltrials.gov/study/NCT00835133",
+                "title": "Collecting Blood and Tissue Samples From Family Members of Patients With Pancreatic Diseases, Pancreatic Cancer, and Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03021460",
+                "url": "https://clinicaltrials.gov/study/NCT03021460",
+                "title": "Pembrolizumab and Ibrutinib in Treating Patients With Stage III-IV Melanoma That Cannot Be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drug:bevacizumab",
+            "label": "Bevacizumab",
+            "type": "drug",
+            "degree": 4,
+            "is_query_entity": false,
+            "trial_count": 44,
+            "citation_count": 44,
+            "citations": [
+              {
+                "nct_id": "NCT03175432",
+                "url": "https://clinicaltrials.gov/study/NCT03175432",
+                "title": "Bevacizumab and Atezolizumab With or Without Cobimetinib in Treating Patients With Untreated Melanoma Brain Metastases",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02158520",
+                "url": "https://clinicaltrials.gov/study/NCT02158520",
+                "title": "Nab-Paclitaxel and Bevacizumab or Ipilimumab as First-Line Therapy in Treating Patients With Stage IV Melanoma That Cannot Be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:h lee moffitt cancer center and research institute",
+            "label": "H. Lee Moffitt Cancer Center and Research Institute",
+            "type": "sponsor",
+            "degree": 8,
+            "is_query_entity": false,
+            "trial_count": 42,
+            "citation_count": 42,
+            "citations": [
+              {
+                "nct_id": "NCT01008527",
+                "url": "https://clinicaltrials.gov/study/NCT01008527",
+                "title": "Phase I Oncovir Poly IC:LC and NY-ESO-1/gp100",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02032810",
+                "url": "https://clinicaltrials.gov/study/NCT02032810",
+                "title": "Phase I of Histone Deacetylase (HDAC) Inhibitor Panobinostat With Ipilimumab With Unresectable III/IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:pfizer",
+            "label": "Pfizer",
+            "type": "sponsor",
+            "degree": 3,
+            "is_query_entity": false,
+            "trial_count": 42,
+            "citation_count": 42,
+            "citations": [
+              {
+                "nct_id": "NCT03878719",
+                "url": "https://clinicaltrials.gov/study/NCT03878719",
+                "title": "Study of the Combination of Binimetinib and Encorafenib in Adolescent Patients With Unresectable or Metastatic BRAF V600-mutant Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02159066",
+                "url": "https://clinicaltrials.gov/study/NCT02159066",
+                "title": "LGX818 and MEK162 in Combination With a Third Agent (BKM120, LEE011, BGJ398 or INC280) in Advanced BRAF Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:merck sharp and dohme",
+            "label": "Merck Sharp & Dohme LLC",
+            "type": "sponsor",
+            "degree": 4,
+            "is_query_entity": false,
+            "trial_count": 37,
+            "citation_count": 37,
+            "citations": [
+              {
+                "nct_id": "NCT02332668",
+                "url": "https://clinicaltrials.gov/study/NCT02332668",
+                "title": "A Study of Pembrolizumab (MK-3475) in Pediatric Participants With an Advanced Solid Tumor or Lymphoma (MK-3475-051/KEYNOTE-051)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00091572",
+                "url": "https://clinicaltrials.gov/study/NCT00091572",
+                "title": "Temozolomide Versus Dacarbazine in Stage IV Metastatic Melanoma (Study P03267)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:peking university cancer hospital and institute",
+            "label": "Peking University Cancer Hospital & Institute",
+            "type": "sponsor",
+            "degree": 1,
+            "is_query_entity": false,
+            "trial_count": 32,
+            "citation_count": 32,
+            "citations": [
+              {
+                "nct_id": "NCT04197882",
+                "url": "https://clinicaltrials.gov/study/NCT04197882",
+                "title": "Clinical Study to Evaluate OrienX010 in Combination With Toripalimab as Neoadjuvant Treatment in Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Peking University Cancer Hospital & Institute"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04180995",
+                "url": "https://clinicaltrials.gov/study/NCT04180995",
+                "title": "Toripalimab in Combination With Axitinib in Patients With Localized Mucosal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Peking University Cancer Hospital & Institute"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sponsor:glaxosmithkline",
+            "label": "GlaxoSmithKline",
+            "type": "sponsor",
+            "degree": 5,
+            "is_query_entity": false,
+            "trial_count": 31,
+            "citation_count": 31,
+            "citations": [
+              {
+                "nct_id": "NCT02082665",
+                "url": "https://clinicaltrials.gov/study/NCT02082665",
+                "title": "Effects of Dabrafenib on the Single Dose Pharmacokinetics (PK) of Rosuvastatin and Midazolam",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06521567",
+                "url": "https://clinicaltrials.gov/study/NCT06521567",
+                "title": "A Study of Cobolimab Plus Dostarlimab in Pediatric and Young Adult Participants With Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:aldesleukin",
+            "weight": 52,
+            "trial_count": 52,
+            "citation_count": 52,
+            "citations": [
+              {
+                "nct_id": "NCT01993719",
+                "url": "https://clinicaltrials.gov/study/NCT01993719",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Aldesleukin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00019994",
+                "url": "https://clinicaltrials.gov/study/NCT00019994",
+                "title": "Vaccine Therapy in Treating Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "aldesleukin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:bristol-myers squibb",
+            "target": "drug:ipilimumab",
+            "weight": 48,
+            "trial_count": 48,
+            "citation_count": 48,
+            "citations": [
+              {
+                "nct_id": "NCT00135408",
+                "url": "https://clinicaltrials.gov/study/NCT00135408",
+                "title": "A Study of MDX-010 (BMS-734016) Administered With or Without Prophylactic Oral Budesonide",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab+ Budesonide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00803374",
+                "url": "https://clinicaltrials.gov/study/NCT00803374",
+                "title": "Combination of Anti-CD137 & Ipilimumab in Patients With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:cyclophosphamide",
+            "weight": 37,
+            "trial_count": 37,
+            "citation_count": 37,
+            "citations": [
+              {
+                "nct_id": "NCT02107963",
+                "url": "https://clinicaltrials.gov/study/NCT02107963",
+                "title": "A Phase I Trial of T Cells Expressing an Anti-GD2 Chimeric Antigen Receptor in Children and Young Adults With GD2+ Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01993719",
+                "url": "https://clinicaltrials.gov/study/NCT01993719",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:bristol-myers squibb",
+            "target": "drug:nivolumab",
+            "weight": 31,
+            "trial_count": 31,
+            "citation_count": 31,
+            "citations": [
+              {
+                "nct_id": "NCT03329846",
+                "url": "https://clinicaltrials.gov/study/NCT03329846",
+                "title": "An Investigational Immuno-therapy Study of BMS-986205 Combined With Nivolumab, Compared to Nivolumab by Itself, in Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02388906",
+                "url": "https://clinicaltrials.gov/study/NCT02388906",
+                "title": "Efficacy Study of Nivolumab Compared to Ipilimumab in Prevention of Recurrence of Melanoma After Complete Resection of Stage IIIb/c or Stage IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:merck sharp and dohme",
+            "target": "drug:pembrolizumab",
+            "weight": 27,
+            "trial_count": 27,
+            "citation_count": 27,
+            "citations": [
+              {
+                "nct_id": "NCT02332668",
+                "url": "https://clinicaltrials.gov/study/NCT02332668",
+                "title": "A Study of Pembrolizumab (MK-3475) in Pediatric Participants With an Advanced Solid Tumor or Lymphoma (MK-3475-051/KEYNOTE-051)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01866319",
+                "url": "https://clinicaltrials.gov/study/NCT01866319",
+                "title": "Study to Evaluate the Safety and Efficacy of Two Different Dosing Schedules of Pembrolizumab (MK-3475) Compared to Ipilimumab in Participants With Advanced Melanoma (MK-3475-006/KEYNOTE-006)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:fludarabine",
+            "weight": 26,
+            "trial_count": 26,
+            "citation_count": 26,
+            "citations": [
+              {
+                "nct_id": "NCT01993719",
+                "url": "https://clinicaltrials.gov/study/NCT01993719",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00328861",
+                "url": "https://clinicaltrials.gov/study/NCT00328861",
+                "title": "Natural Killer Cells Plus IL-2 Following Chemotherapy to Treat Advanced Melanoma or Kidney Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:vemurafenib",
+            "weight": 20,
+            "trial_count": 20,
+            "citation_count": 20,
+            "citations": [
+              {
+                "nct_id": "NCT02908672",
+                "url": "https://clinicaltrials.gov/study/NCT02908672",
+                "title": "A Study of Atezolizumab Plus Cobimetinib and Vemurafenib Versus Placebo Plus Cobimetinib and Vemurafenib in Previously Untreated BRAFv600 Mutation-Positive Patients With Metastatic or Unresectable Locally Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01006980",
+                "url": "https://clinicaltrials.gov/study/NCT01006980",
+                "title": "A Study of Vemurafenib (RO5185426) in Comparison With Dacarbazine in Previously Untreated Patients With Metastatic Melanoma (BRIM 3)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:ipilimumab",
+            "weight": 17,
+            "trial_count": 17,
+            "citation_count": 17,
+            "citations": [
+              {
+                "nct_id": "NCT03873818",
+                "url": "https://clinicaltrials.gov/study/NCT03873818",
+                "title": "Low Dose Ipilimumab With Pembrolizumab in Treating Patients With Melanoma That Has Spread to the Brain",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT06683755",
+                "url": "https://clinicaltrials.gov/study/NCT06683755",
+                "title": "Phase I/IIa Dose Finding Study of Triplet Regimen of Relatlimab Ipilimumab and NIvolumab in First Line Therapy of Metastatic Melanoma (TRINITY)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:ipilimumab",
+            "weight": 17,
+            "trial_count": 17,
+            "citation_count": 17,
+            "citations": [
+              {
+                "nct_id": "NCT05896839",
+                "url": "https://clinicaltrials.gov/study/NCT05896839",
+                "title": "Immunotherapy in Combination With Prednisone and Sirolimus for Kidney Transplant Recipients With Unresectable or Metastatic Skin Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03326258",
+                "url": "https://clinicaltrials.gov/study/NCT03326258",
+                "title": "Glembatumumab Vedotin, Nivolumab, and Ipilimumab in Treating Patients With Advanced Metastatic Solid Tumors That Cannot Be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:nivolumab",
+            "weight": 14,
+            "trial_count": 14,
+            "citation_count": 14,
+            "citations": [
+              {
+                "nct_id": "NCT05896839",
+                "url": "https://clinicaltrials.gov/study/NCT05896839",
+                "title": "Immunotherapy in Combination With Prednisone and Sirolimus for Kidney Transplant Recipients With Unresectable or Metastatic Skin Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02465060",
+                "url": "https://clinicaltrials.gov/study/NCT02465060",
+                "title": "Targeted Therapy Directed by Genetic Testing in Treating Patients With Advanced Refractory Solid Tumors, Lymphomas, or Multiple Myeloma (The MATCH Screening Trial)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[26].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:novartis pharmaceuticals",
+            "target": "drug:dabrafenib",
+            "weight": 14,
+            "trial_count": 14,
+            "citation_count": 14,
+            "citations": [
+              {
+                "nct_id": "NCT04547946",
+                "url": "https://clinicaltrials.gov/study/NCT04547946",
+                "title": "Observational Study for Melanoma Adjuvant Treatment With Tafinlar® + Mekinist® (Dabrafenib + Trametinib)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "dabrafenib + trametinib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01597908",
+                "url": "https://clinicaltrials.gov/study/NCT01597908",
+                "title": "Dabrafenib Plus Trametinib vs Vemurafenib Alone in Unresectable or Metastatic BRAF V600E/K Cutaneous Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:novartis pharmaceuticals",
+            "target": "drug:trametinib",
+            "weight": 14,
+            "trial_count": 14,
+            "citation_count": 14,
+            "citations": [
+              {
+                "nct_id": "NCT01597908",
+                "url": "https://clinicaltrials.gov/study/NCT01597908",
+                "title": "Dabrafenib Plus Trametinib vs Vemurafenib Alone in Unresectable or Metastatic BRAF V600E/K Cutaneous Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03340506",
+                "url": "https://clinicaltrials.gov/study/NCT03340506",
+                "title": "Dabrafenib and/or Trametinib Rollover Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "trametinib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:cyclophosphamide",
+            "weight": 13,
+            "trial_count": 13,
+            "citation_count": 13,
+            "citations": [
+              {
+                "nct_id": "NCT06237881",
+                "url": "https://clinicaltrials.gov/study/NCT06237881",
+                "title": "A Phase 1/2 Study of KSQ-001EX, Autologous Tumor Infiltrating Lymphocytes Engineered to Inactivate the SOCS1 Gene, in Patients With Select Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02500576",
+                "url": "https://clinicaltrials.gov/study/NCT02500576",
+                "title": "Pembrolizumab, Standard Chemotherapy, Tumor Infiltrating Lymphocytes, and High- or Low-Dose Aldesleukin in Treating Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:nivolumab",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT06683755",
+                "url": "https://clinicaltrials.gov/study/NCT06683755",
+                "title": "Phase I/IIa Dose Finding Study of Triplet Regimen of Relatlimab Ipilimumab and NIvolumab in First Line Therapy of Metastatic Melanoma (TRINITY)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04902040",
+                "url": "https://clinicaltrials.gov/study/NCT04902040",
+                "title": "Plinabulin in Combination With Radiation/Immunotherapy in Patients With Select Advanced Cancers After Progression on PD-1 or PD-L1 Targeted Antibodies",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:pembrolizumab",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT02298959",
+                "url": "https://clinicaltrials.gov/study/NCT02298959",
+                "title": "Testing the PD-1 Antibody, MK3475, Given With Ziv-aflibercept in Patients With Advanced Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01993719",
+                "url": "https://clinicaltrials.gov/study/NCT01993719",
+                "title": "Immunotherapy Using Tumor Infiltrating Lymphocytes for Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:trametinib",
+            "weight": 10,
+            "trial_count": 10,
+            "citation_count": 10,
+            "citations": [
+              {
+                "nct_id": "NCT04439292",
+                "url": "https://clinicaltrials.gov/study/NCT04439292",
+                "title": "Testing Trametinib and Dabrafenib as a Potential Targeted Treatment in Cancers With BRAF Genetic Changes (MATCH-Subprotocol H)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Trametinib Dimethyl Sulfoxide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04557956",
+                "url": "https://clinicaltrials.gov/study/NCT04557956",
+                "title": "Testing the Addition of the Anti-cancer Drug, Tazemetostat, to the Usual Treatment (Dabrafenib and Trametinib) for Metastatic Melanoma That Has Progressed on the Usual Treatment",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[7].name",
+                    "text": "Trametinib Dimethyl Sulfoxide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:nivolumab",
+            "weight": 9,
+            "trial_count": 9,
+            "citation_count": 9,
+            "citations": [
+              {
+                "nct_id": "NCT04526730",
+                "url": "https://clinicaltrials.gov/study/NCT04526730",
+                "title": "Neoadjuvant Immunotherapy With Tavo + Electroporation in Combination With Nivo. in Melanoma Patients",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01176474",
+                "url": "https://clinicaltrials.gov/study/NCT01176474",
+                "title": "Vaccine Combining Multiple Class I Peptides and Montanide ISA 51VG With Escalating Doses of Anti-PD-1 Antibody Nivolumab or Ipilimumab With Nivolumab For Patients With Resected Stages IIIC/ IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:pembrolizumab",
+            "weight": 9,
+            "trial_count": 9,
+            "citation_count": 9,
+            "citations": [
+              {
+                "nct_id": "NCT03873818",
+                "url": "https://clinicaltrials.gov/study/NCT03873818",
+                "title": "Low Dose Ipilimumab With Pembrolizumab in Treating Patients With Melanoma That Has Spread to the Brain",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02500576",
+                "url": "https://clinicaltrials.gov/study/NCT02500576",
+                "title": "Pembrolizumab, Standard Chemotherapy, Tumor Infiltrating Lymphocytes, and High- or Low-Dose Aldesleukin in Treating Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:dabrafenib",
+            "weight": 9,
+            "trial_count": 9,
+            "citation_count": 9,
+            "citations": [
+              {
+                "nct_id": "NCT04439292",
+                "url": "https://clinicaltrials.gov/study/NCT04439292",
+                "title": "Testing Trametinib and Dabrafenib as a Potential Targeted Treatment in Cancers With BRAF Genetic Changes (MATCH-Subprotocol H)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib Mesylate"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04557956",
+                "url": "https://clinicaltrials.gov/study/NCT04557956",
+                "title": "Testing the Addition of the Anti-cancer Drug, Tazemetostat, to the Usual Treatment (Dabrafenib and Trametinib) for Metastatic Melanoma That Has Progressed on the Usual Treatment",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Dabrafenib Mesylate"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:glaxosmithkline",
+            "target": "drug:dabrafenib",
+            "weight": 8,
+            "trial_count": 8,
+            "citation_count": 8,
+            "citations": [
+              {
+                "nct_id": "NCT02082665",
+                "url": "https://clinicaltrials.gov/study/NCT02082665",
+                "title": "Effects of Dabrafenib on the Single Dose Pharmacokinetics (PK) of Rosuvastatin and Midazolam",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Dabrafenib 75 mg capsule"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02416232",
+                "url": "https://clinicaltrials.gov/study/NCT02416232",
+                "title": "Access Study of Trametinib for Subjects With Advanced Unresectable (Stage IIIc) or Distant Metastatic (Stage IV) BRAF V600E/K Mutation Positive Cutaneous Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:temozolomide",
+            "weight": 8,
+            "trial_count": 8,
+            "citation_count": 8,
+            "citations": [
+              {
+                "nct_id": "NCT01409174",
+                "url": "https://clinicaltrials.gov/study/NCT01409174",
+                "title": "IPI Biochemotherapy for Chemonaive Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01119508",
+                "url": "https://clinicaltrials.gov/study/NCT01119508",
+                "title": "Ipilimumab + Temozolomide in Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:glaxosmithkline",
+            "target": "drug:trametinib",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT02416232",
+                "url": "https://clinicaltrials.gov/study/NCT02416232",
+                "title": "Access Study of Trametinib for Subjects With Advanced Unresectable (Stage IIIc) or Distant Metastatic (Stage IV) BRAF V600E/K Mutation Positive Cutaneous Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01928940",
+                "url": "https://clinicaltrials.gov/study/NCT01928940",
+                "title": "Japan PhI/II of GSK2118436 and GSK1120212 Combination in Subjects With BRAF V600E/K Mutation Positive Advanced Solid Tumors (Phase I Part) or Cutaneous Melanoma (Phase II Part)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "trametinib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:ipilimumab",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT02032810",
+                "url": "https://clinicaltrials.gov/study/NCT02032810",
+                "title": "Phase I of Histone Deacetylase (HDAC) Inhibitor Panobinostat With Ipilimumab With Unresectable III/IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01176474",
+                "url": "https://clinicaltrials.gov/study/NCT01176474",
+                "title": "Vaccine Combining Multiple Class I Peptides and Montanide ISA 51VG With Escalating Doses of Anti-PD-1 Antibody Nivolumab or Ipilimumab With Nivolumab For Patients With Resected Stages IIIC/ IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:pembrolizumab",
+            "weight": 7,
+            "trial_count": 7,
+            "citation_count": 7,
+            "citations": [
+              {
+                "nct_id": "NCT03021460",
+                "url": "https://clinicaltrials.gov/study/NCT03021460",
+                "title": "Pembrolizumab and Ibrutinib in Treating Patients With Stage III-IV Melanoma That Cannot Be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05669352",
+                "url": "https://clinicaltrials.gov/study/NCT05669352",
+                "title": "CA-4948 in Combination With Pembrolizumab and Stereotactic Radiosurgery to Improve Treatment of Melanoma Brain Metastases",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:bristol-myers squibb",
+            "target": "drug:dacarbazine",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT01681212",
+                "url": "https://clinicaltrials.gov/study/NCT01681212",
+                "title": "Phase 2 Study of Ipilimumab Plus Dacarbazine in Japanese Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00796991",
+                "url": "https://clinicaltrials.gov/study/NCT00796991",
+                "title": "Drug-Drug Interaction - 3 Arm - Carboplatin/Paclitaxel, Dacarbazine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:aldesleukin",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT02500576",
+                "url": "https://clinicaltrials.gov/study/NCT02500576",
+                "title": "Pembrolizumab, Standard Chemotherapy, Tumor Infiltrating Lymphocytes, and High- or Low-Dose Aldesleukin in Treating Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Aldesleukin"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03068624",
+                "url": "https://clinicaltrials.gov/study/NCT03068624",
+                "title": "Autologous CD8+ SLC45A2-Specific T Lymphocytes With Cyclophosphamide, Aldesleukin, and Ipilimumab in Treating Patients With Metastatic Uveal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Aldesleukin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:memorial sloan kettering cancer center",
+            "target": "drug:temozolomide",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT00588341",
+                "url": "https://clinicaltrials.gov/study/NCT00588341",
+                "title": "Phase II Trial of Neoadjuvant Temozolomide in Melanoma Patients With Palpable Stage III or IV Disease Undergoing Complete Surgical Resection",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00072345",
+                "url": "https://clinicaltrials.gov/study/NCT00072345",
+                "title": "Temozolomide, Thalidomide, and Lomustine in Treating Patients With Unresectable Stage III or Stage IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:bevacizumab",
+            "weight": 6,
+            "trial_count": 6,
+            "citation_count": 6,
+            "citations": [
+              {
+                "nct_id": "NCT00387751",
+                "url": "https://clinicaltrials.gov/study/NCT00387751",
+                "title": "Bevacizumab and Sorafenib in Treating Patients With Unresectable Stage III or Stage IV Malignant Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01950390",
+                "url": "https://clinicaltrials.gov/study/NCT01950390",
+                "title": "Ipilimumab With or Without Bevacizumab in Treating Patients With Stage III-IV Melanoma That Cannot Be Removed by Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:fludarabine",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT06961357",
+                "url": "https://clinicaltrials.gov/study/NCT06961357",
+                "title": "Clinical Trial of CD40L-augmented TIL for Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05628883",
+                "url": "https://clinicaltrials.gov/study/NCT05628883",
+                "title": "Proof of Concept of TBio-4101, Lymphodepleting Chemo, IL-2 for Relapsed/Refractory Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:memorial sloan kettering cancer center",
+            "target": "drug:ipilimumab",
+            "weight": 5,
+            "trial_count": 5,
+            "citation_count": 5,
+            "citations": [
+              {
+                "nct_id": "NCT05289193",
+                "url": "https://clinicaltrials.gov/study/NCT05289193",
+                "title": "CD8+ T Cell Imaging During Pre-surgery Immunotherapy in People With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03922880",
+                "url": "https://clinicaltrials.gov/study/NCT03922880",
+                "title": "Study of Immunotherapy Plus ADI-PEG 20 for the Treatment of Advanced Uveal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:cyclophosphamide",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT06961357",
+                "url": "https://clinicaltrials.gov/study/NCT06961357",
+                "title": "Clinical Trial of CD40L-augmented TIL for Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05628883",
+                "url": "https://clinicaltrials.gov/study/NCT05628883",
+                "title": "Proof of Concept of TBio-4101, Lymphodepleting Chemo, IL-2 for Relapsed/Refractory Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04581382",
+                "url": "https://clinicaltrials.gov/study/NCT04581382",
+                "title": "Radiation Therapy, Plasma Exchange, and Immunotherapy (Pembrolizumab or Nivolumab) for the Treatment of Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05717140",
+                "url": "https://clinicaltrials.gov/study/NCT05717140",
+                "title": "Aerosolized Sargramostim Added to Immunotherapy for the Treatment of Patients With Metastatic Melanoma to the Lung",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[5].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:memorial sloan kettering cancer center",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT05289193",
+                "url": "https://clinicaltrials.gov/study/NCT05289193",
+                "title": "CD8+ T Cell Imaging During Pre-surgery Immunotherapy in People With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03922880",
+                "url": "https://clinicaltrials.gov/study/NCT03922880",
+                "title": "Study of Immunotherapy Plus ADI-PEG 20 for the Treatment of Advanced Uveal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:merck sharp and dohme",
+            "target": "drug:temozolomide",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT00091572",
+                "url": "https://clinicaltrials.gov/study/NCT00091572",
+                "title": "Temozolomide Versus Dacarbazine in Stage IV Metastatic Melanoma (Study P03267)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01294735",
+                "url": "https://clinicaltrials.gov/study/NCT01294735",
+                "title": "Study of the Safety and Efficacy of MK-4827 Given With Temozolomide in Participants With Advanced Cancer (MK-4827-014 AM1)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:temozolomide",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT01196416",
+                "url": "https://clinicaltrials.gov/study/NCT01196416",
+                "title": "Gamma-secretase/Notch Signalling Pathway Inhibitor RO4929097 in Combination With Cisplatin, Vinblastine, and Temozolomide in Treating Patients With Recurrent or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01143402",
+                "url": "https://clinicaltrials.gov/study/NCT01143402",
+                "title": "Temozolomide or Selumetinib in Treating Patients With Metastatic Melanoma of the Eye",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[4].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:peking university cancer hospital and institute",
+            "target": "drug:temozolomide",
+            "weight": 4,
+            "trial_count": 4,
+            "citation_count": 4,
+            "citations": [
+              {
+                "nct_id": "NCT04462965",
+                "url": "https://clinicaltrials.gov/study/NCT04462965",
+                "title": "Postoperative Adjuvant Treatment of Completely Resected Mucosal Melanoma Phase II Study",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Peking University Cancer Hospital & Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04397770",
+                "url": "https://clinicaltrials.gov/study/NCT04397770",
+                "title": "Camrelizumab Plus Apatinib and Temozolomide as First Line Therapy in Advanced Acral Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Peking University Cancer Hospital & Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Temozolomide Injection"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:vemurafenib",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT02721459",
+                "url": "https://clinicaltrials.gov/study/NCT02721459",
+                "title": "XL888 + Vemurafenib + Cobimetinib for Unresectable BRAF Mutated Stage III/IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01659151",
+                "url": "https://clinicaltrials.gov/study/NCT01659151",
+                "title": "Vemurafenib With Lymphodepletion Plus Adoptive Cell Transfer & High Dose IL-2 Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:bevacizumab",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT01069627",
+                "url": "https://clinicaltrials.gov/study/NCT01069627",
+                "title": "A Study of Avastin (Bevacizumab) in Combination With Fotemustine in Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "bevacizumab [Avastin]"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT04091217",
+                "url": "https://clinicaltrials.gov/study/NCT04091217",
+                "title": "Atezolizumab in Combination With Bevacizumab in Patients With Unresectable Locally Advanced or Metastatic Mucosal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:bevacizumab",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT03175432",
+                "url": "https://clinicaltrials.gov/study/NCT03175432",
+                "title": "Bevacizumab and Atezolizumab With or Without Cobimetinib in Treating Patients With Untreated Melanoma Brain Metastases",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01183663",
+                "url": "https://clinicaltrials.gov/study/NCT01183663",
+                "title": "Lenalidomide in Combination With Bevacizumab, Sorafenib, Temsirolimus, or 5-Fluorouracil, Leucovorin, Oxaliplatin (FOLFOX)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:dabrafenib",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT02231775",
+                "url": "https://clinicaltrials.gov/study/NCT02231775",
+                "title": "Dabrafenib and Trametinib Before and After Surgery in Treating Patients With Stage IIIB-C Melanoma With BRAF V600 Mutation",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02910700",
+                "url": "https://clinicaltrials.gov/study/NCT02910700",
+                "title": "Nivolumab With Trametinib and Dabrafenib, or Encorafenib and Binimetinib in Treating Patients With BRAF Mutated Metastatic or Unresectable Stage III-IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:fludarabine",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT06237881",
+                "url": "https://clinicaltrials.gov/study/NCT06237881",
+                "title": "A Phase 1/2 Study of KSQ-001EX, Autologous Tumor Infiltrating Lymphocytes Engineered to Inactivate the SOCS1 Gene, in Patients With Select Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00338377",
+                "url": "https://clinicaltrials.gov/study/NCT00338377",
+                "title": "Lymphodepletion Plus Adoptive Cell Transfer With or Without Dendritic Cell Immunization in Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Fludarabine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:trametinib",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT02231775",
+                "url": "https://clinicaltrials.gov/study/NCT02231775",
+                "title": "Dabrafenib and Trametinib Before and After Surgery in Treating Patients With Stage IIIB-C Melanoma With BRAF V600 Mutation",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02910700",
+                "url": "https://clinicaltrials.gov/study/NCT02910700",
+                "title": "Nivolumab With Trametinib and Dabrafenib, or Encorafenib and Binimetinib in Treating Patients With BRAF Mutated Metastatic or Unresectable Stage III-IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[6].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:dacarbazine",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT01143402",
+                "url": "https://clinicaltrials.gov/study/NCT01143402",
+                "title": "Temozolomide or Selumetinib in Treating Patients With Metastatic Melanoma of the Eye",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00072124",
+                "url": "https://clinicaltrials.gov/study/NCT00072124",
+                "title": "Dacarbazine and/or Cisplatin Compared With Complete Metastasectomy in Treating Patients With Stage IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:novartis pharmaceuticals",
+            "target": "drug:pembrolizumab",
+            "weight": 3,
+            "trial_count": 3,
+            "citation_count": 3,
+            "citations": [
+              {
+                "nct_id": "NCT05611229",
+                "url": "https://clinicaltrials.gov/study/NCT05611229",
+                "title": "Treatment Patterns and Outcomes of Targeted Therapy and Immunotherapy Among BRAF-Positive Melanoma Patients Treated in the Adjuvant Setting and Among BRAF-Positive Metastatic Melanoma Patients With Low Tumor Burden",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05714371",
+                "url": "https://clinicaltrials.gov/study/NCT05714371",
+                "title": "Retrospective Assessment of Adverse Events-related Healthcare Resource Utilization and Costs of Immune Checkpoint Inhibitor and Targeted Therapy for Adjuvant Treatment of Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:bristol-myers squibb",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01673854",
+                "url": "https://clinicaltrials.gov/study/NCT01673854",
+                "title": "Phase II Safety Study of Vemurafenib Followed by Ipilimumab in Subjects With V600 BRAF Mutated Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01400451",
+                "url": "https://clinicaltrials.gov/study/NCT01400451",
+                "title": "Ph I Ipilimumab Vemurafenib Combo in Patients With v-Raf Murine Sarcoma Viral Oncogene Homolog B1 (BRAF)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:glaxosmithkline",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01227889",
+                "url": "https://clinicaltrials.gov/study/NCT01227889",
+                "title": "A Study Comparing GSK2118436 to Dacarbazine (DTIC) in Previously Untreated Subjects With BRAF Mutation Positive Advanced (Stage III) or Metastatic (Stage IV) Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine (DTIC)"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00849875",
+                "url": "https://clinicaltrials.gov/study/NCT00849875",
+                "title": "A Study of Safety and Clinical Activity of Immunotherapy Plus Chemotherapy in Metastatic Melanoma Patients",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT00496223",
+                "url": "https://clinicaltrials.gov/study/NCT00496223",
+                "title": "A Phase I/II Study of Sunitinib and Dacarbazine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00597038",
+                "url": "https://clinicaltrials.gov/study/NCT00597038",
+                "title": "A Phase I/II Study of Dasatinib and Dacarbazine",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dasatinib and Dacarbazine (DTIC)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01006980",
+                "url": "https://clinicaltrials.gov/study/NCT01006980",
+                "title": "A Study of Vemurafenib (RO5185426) in Comparison With Dacarbazine in Previously Untreated Patients With Metastatic Melanoma (BRIM 3)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01164007",
+                "url": "https://clinicaltrials.gov/study/NCT01164007",
+                "title": "A Study of Bevacizumab (Avastin) in Combination With Dacarbazine in Participants With Unresectable/Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:pembrolizumab",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT03875079",
+                "url": "https://clinicaltrials.gov/study/NCT03875079",
+                "title": "A Study to Evaluate Safety and Therapeutic Activity of RO6874281 in Combination with Pembrolizumab, in Participants with Advanced or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03273153",
+                "url": "https://clinicaltrials.gov/study/NCT03273153",
+                "title": "A Study of Cobimetinib Plus Atezolizumab Versus Pembrolizumab in Participants With Previously Untreated Advanced BRAFv600 Wild-Type Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT00412581",
+                "url": "https://clinicaltrials.gov/study/NCT00412581",
+                "title": "Lenalidomide and Dacarbazine (DTIC) in Patients With Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00002882",
+                "url": "https://clinicaltrials.gov/study/NCT00002882",
+                "title": "Interferon Alfa With or Without Combination Chemotherapy Plus Interleukin-2 in Treating Patients With Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:m d anderson cancer center",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01603212",
+                "url": "https://clinicaltrials.gov/study/NCT01603212",
+                "title": "Systemic Therapy With Interferon, Interleukin-2 and BRAF Inhibitor",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01596140",
+                "url": "https://clinicaltrials.gov/study/NCT01596140",
+                "title": "Vemurafenib in Combination With Everolimus or Temsirolimus With Advanced Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "M.D. Anderson Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:cyclophosphamide",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT05269381",
+                "url": "https://clinicaltrials.gov/study/NCT05269381",
+                "title": "Personalized Neoantigen Peptide-Based Vaccine in Combination With Pembrolizumab for Treatment of Advanced Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02650635",
+                "url": "https://clinicaltrials.gov/study/NCT02650635",
+                "title": "TLR8 Agonist VTX-2337 and Cyclophosphamide in Treating Patients With Metastatic, Persistent, Recurrent, or Progressive Solid Tumors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Cyclophosphamide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:temozolomide",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT00568451",
+                "url": "https://clinicaltrials.gov/study/NCT00568451",
+                "title": "Paclitaxel and Carboplatin or Temozolomide in Treating Patients With Stage IV Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "temozolomide"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01328535",
+                "url": "https://clinicaltrials.gov/study/NCT01328535",
+                "title": "Individualized Temozolomide in Treating Patients With Stage IV Melanoma That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:memorial sloan kettering cancer center",
+            "target": "drug:dabrafenib",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01682213",
+                "url": "https://clinicaltrials.gov/study/NCT01682213",
+                "title": "Adjuvant Dabrafenib (GSK2118436) in Patients With Surgically Resected AJCC Stage IIIC Melanoma Characterized by a BRAFV600E/K Mutation",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT03026517",
+                "url": "https://clinicaltrials.gov/study/NCT03026517",
+                "title": "Clinical Trial of Phenformin in Combination With BRAF Inhibitor + MEK Inhibitor for Patients With BRAF-mutated Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:memorial sloan kettering cancer center",
+            "target": "drug:pembrolizumab",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT03693014",
+                "url": "https://clinicaltrials.gov/study/NCT03693014",
+                "title": "A Study of Several Radiation Doses for Patients With Progression on Immunotherapy/Checkpoint Inhibitors",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab, Nivolumab, Pembrolizumab or Atezolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05859074",
+                "url": "https://clinicaltrials.gov/study/NCT05859074",
+                "title": "A Study of MQ710 With and Without Pembrolizumab in People With Solid Tumor Cancer",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Memorial Sloan Kettering Cancer Center"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:merck sharp and dohme",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT00091572",
+                "url": "https://clinicaltrials.gov/study/NCT00091572",
+                "title": "Temozolomide Versus Dacarbazine in Stage IV Metastatic Melanoma (Study P03267)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01704287",
+                "url": "https://clinicaltrials.gov/study/NCT01704287",
+                "title": "Study of Pembrolizumab (MK-3475) Versus Chemotherapy in Participants With Advanced Melanoma (MK-3475-002/P08719/KEYNOTE-002)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:merck sharp and dohme",
+            "target": "drug:ipilimumab",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01866319",
+                "url": "https://clinicaltrials.gov/study/NCT01866319",
+                "title": "Study to Evaluate the Safety and Efficacy of Two Different Dosing Schedules of Pembrolizumab (MK-3475) Compared to Ipilimumab in Participants With Advanced Melanoma (MK-3475-006/KEYNOTE-006)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT02089685",
+                "url": "https://clinicaltrials.gov/study/NCT02089685",
+                "title": "Safety and Tolerability of Pembrolizumab (MK-3475) + Pegylated Interferon Alfa-2b and Pembrolizumab+ Ipilimumab in Participants With Advanced Melanoma or Renal Cell Carcinoma (MK-3475-029/KEYNOTE-29)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Merck Sharp & Dohme LLC"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:national cancer institute nci",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01835184",
+                "url": "https://clinicaltrials.gov/study/NCT01835184",
+                "title": "Cabozantinib-S-Malate and Vemurafenib in Treating Patients With Solid Tumors or Melanoma That is Metastatic or That Cannot Be Removed By Surgery",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01585415",
+                "url": "https://clinicaltrials.gov/study/NCT01585415",
+                "title": "Vemurafenib and White Blood Cell Therapy for Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "National Cancer Institute (NCI)"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:novartis pharmaceuticals",
+            "target": "drug:nivolumab",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT05611229",
+                "url": "https://clinicaltrials.gov/study/NCT05611229",
+                "title": "Treatment Patterns and Outcomes of Targeted Therapy and Immunotherapy Among BRAF-Positive Melanoma Patients Treated in the Adjuvant Setting and Among BRAF-Positive Metastatic Melanoma Patients With Low Tumor Burden",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05714371",
+                "url": "https://clinicaltrials.gov/study/NCT05714371",
+                "title": "Retrospective Assessment of Adverse Events-related Healthcare Resource Utilization and Costs of Immune Checkpoint Inhibitor and Targeted Therapy for Adjuvant Treatment of Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Novartis Pharmaceuticals"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:pfizer",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT01763164",
+                "url": "https://clinicaltrials.gov/study/NCT01763164",
+                "title": "Study Comparing the Efficacy of MEK162 Versus Dacarbazine in Unresectable or Metastatic NRAS Mutation-positive Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Dacarbazine"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT00070642",
+                "url": "https://clinicaltrials.gov/study/NCT00070642",
+                "title": "CPG 7909 Injection in Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "dacarbazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:pfizer",
+            "target": "drug:pembrolizumab",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT04657991",
+                "url": "https://clinicaltrials.gov/study/NCT04657991",
+                "title": "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT05926960",
+                "url": "https://clinicaltrials.gov/study/NCT05926960",
+                "title": "A Study Comparing 3 Study Medicines (Encorafenib, Binimetinib, Pembrolizumab) to 2 Study Medicines (Ipilimumab and Nivolumab) in Patients With Advanced Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:pfizer",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "trial_count": 2,
+            "citation_count": 2,
+            "citations": [
+              {
+                "nct_id": "NCT05260684",
+                "url": "https://clinicaltrials.gov/study/NCT05260684",
+                "title": "Comparative Effectiveness of Targeted Therapies in BRAF Positive Metastatic Melanoma in the US",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Vemurafenib"
+                  }
+                ]
+              },
+              {
+                "nct_id": "NCT01909453",
+                "url": "https://clinicaltrials.gov/study/NCT01909453",
+                "title": "Study Comparing Combination of LGX818 Plus MEK162 Versus Vemurafenib and LGX818 Monotherapy in BRAF Mutant Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Pfizer"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "vemurafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:bristol-myers squibb",
+            "target": "drug:temozolomide",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT07492680",
+                "url": "https://clinicaltrials.gov/study/NCT07492680",
+                "title": "A Study of BMS-986504 Monotherapy and in Combination With Other Agents in Participants With Advanced and/or Metastatic Solid Tumors With Homozygous MTAP Deletion (MountainTAP-5)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Bristol-Myers Squibb"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[3].name",
+                    "text": "Temozolomide"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:glaxosmithkline",
+            "target": "drug:ipilimumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT01767454",
+                "url": "https://clinicaltrials.gov/study/NCT01767454",
+                "title": "Study of Dabrafenib +/- Trametinib in Combination With Ipilimumab for V600E/K Mutation Positive Metastatic or Unresectable Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[2].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:glaxosmithkline",
+            "target": "drug:pembrolizumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT02783300",
+                "url": "https://clinicaltrials.gov/study/NCT02783300",
+                "title": "An Open-label, Dose Escalation Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of GSK3326595 in Participants With Solid Tumors and Non-Hodgkin's Lymphoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "GlaxoSmithKline"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:pembrolizumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT05524935",
+                "url": "https://clinicaltrials.gov/study/NCT05524935",
+                "title": "Olaparib in Combination With Pembrolizumab for Advanced Uveal Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Pembrolizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:h lee moffitt cancer center and research institute",
+            "target": "drug:trametinib",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT03501368",
+                "url": "https://clinicaltrials.gov/study/NCT03501368",
+                "title": "Study of Trametinib + Ceritinib in Patients With Unresectable Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "H. Lee Moffitt Cancer Center and Research Institute"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Trametinib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:ipilimumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT05116202",
+                "url": "https://clinicaltrials.gov/study/NCT05116202",
+                "title": "A Study Evaluating the Efficacy and Safety of Multiple Treatment Combinations in Patients With Melanoma (Morpheus-Melanoma)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[1].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:hoffmann-la roche",
+            "target": "drug:nivolumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT05116202",
+                "url": "https://clinicaltrials.gov/study/NCT05116202",
+                "title": "A Study Evaluating the Efficacy and Safety of Multiple Treatment Combinations in Patients With Melanoma (Morpheus-Melanoma)",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Hoffmann-La Roche"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Nivolumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:bevacizumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT02020707",
+                "url": "https://clinicaltrials.gov/study/NCT02020707",
+                "title": "Nab-Paclitaxel and Bevacizumab in Treating Patients With Unresectable Stage IV Melanoma or Gynecological Cancers",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Bevacizumab"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:dabrafenib",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT05388877",
+                "url": "https://clinicaltrials.gov/study/NCT05388877",
+                "title": "E6201 and Dabrafenib for the Treatment of Central Nervous System Metastases From BRAF V600 Mutated Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Dabrafenib"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "sponsor:mayo clinic",
+            "target": "drug:ipilimumab",
+            "weight": 1,
+            "trial_count": 1,
+            "citation_count": 1,
+            "citations": [
+              {
+                "nct_id": "NCT04967196",
+                "url": "https://clinicaltrials.gov/study/NCT04967196",
+                "title": "Ipilimumab and Nivolumab for the Treatment of Stage III-IV Unresectable Metastatic Melanoma",
+                "excerpts": [
+                  {
+                    "field": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+                    "text": "Mayo Clinic"
+                  },
+                  {
+                    "field": "protocolSection.armsInterventionsModule.interventions[0].name",
+                    "text": "Ipilimumab"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "options": {
+        "orientation": null,
+        "stacked": false,
+        "time_granularity": null,
+        "x_scale": null,
+        "y_scale": null,
+        "layout": "force",
+        "bipartite": true
+      }
+    },
+    "meta": {
+      "query": "Show a network of sponsors ↔ drugs for melanoma trials",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "condition": "melanoma"
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "network",
+        "rationale": "Map which sponsors are connected to which drugs in trials for melanoma to reveal sponsorship–drug relationships and co-development patterns.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "network",
+          "network": {
+            "source": "sponsor",
+            "target": "drug"
+          },
+          "filters": {
+            "condition": "melanoma"
+          },
+          "cohorts": [],
+          "chart_type": "network_graph",
+          "top_n": 12,
+          "rationale": "Map which sponsors are connected to which drugs in trials for melanoma to reveal sponsorship–drug relationships and co-development patterns."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 5368,
+            "input_tokens": 2719,
+            "output_tokens": 345,
+            "reasoning_tokens": 64,
+            "confidence": "high",
+            "cost_usd": 0.000794
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Melanoma",
+          "total_matching": 3778,
+          "analyzed": 3778,
+          "truncated": false,
+          "api_params": {
+            "query.cond": "melanoma"
+          }
+        }
+      ],
+      "counting_rule": "Node trial_count = distinct trials listing the entity; edge weight = distinct trials in which both entities appear. Each trial is counted once even if it lists an entity several times.",
+      "sort": "nodes by trial_count descending; edges by weight descending",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [],
+      "notes": [
+        "showing top 12 of 895 connected sponsor nodes (by trial count)",
+        "showing top 12 of 2118 connected drug nodes (by trial count)",
+        "showing the 72 strongest of 88 edges"
+      ],
+      "generated_at": "2026-10-21T18:11:12+00:00",
+      "elapsed_ms": 8453,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}

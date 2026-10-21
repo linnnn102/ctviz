@@ -1,0 +1,3157 @@
+{
+  "request": {
+    "query": "How many melanoma trials started each year since 2015 by phase?",
+    "max_citations_per_datum": 2
+  },
+  "response": {
+    "visualization": {
+      "type": "time_series",
+      "title": "Trials started per year by phase — Melanoma · started 2015–2026",
+      "subtitle": null,
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "title": "Start year",
+          "unit": null,
+          "sort": "ascending",
+          "aggregate": null
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Number of trials",
+          "unit": "trials",
+          "sort": null,
+          "aggregate": "sum"
+        },
+        "series": {
+          "field": "phase",
+          "type": "nominal",
+          "title": "Phase",
+          "unit": null,
+          "sort": [
+            "Early Phase 1",
+            "Phase 1",
+            "Phase 1/Phase 2",
+            "Phase 2",
+            "Phase 2/Phase 3",
+            "Phase 3",
+            "Phase 4",
+            "Not Applicable",
+            "Unknown"
+          ],
+          "aggregate": null
+        },
+        "x2": null,
+        "label": null,
+        "value": null,
+        "network": null,
+        "columns": null
+      },
+      "data": [
+        {
+          "year": 2015,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT02320305",
+              "url": "https://clinicaltrials.gov/study/NCT02320305",
+              "title": "MART-1 Antigen With or Without TLR4 Agonist GLA-SE in Treating Patients With Stage II-IV Melanoma That Has Been Removed by Surgery",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-01-27"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02699918",
+              "url": "https://clinicaltrials.gov/study/NCT02699918",
+              "title": "Impact of Obstructive SAS on Metastatic Potential of Cutaneous Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-12-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2016,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT02382549",
+              "url": "https://clinicaltrials.gov/study/NCT02382549",
+              "title": "A Clinical Trial to Evaluate a Melanoma Helper Peptide Vaccine Plus Dabrafenib and Trametinib",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-04"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03060356",
+              "url": "https://clinicaltrials.gov/study/NCT03060356",
+              "title": "Autologous T Cells Expressing MET scFv CAR (RNA CART-cMET)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-12-21"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2017,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03276832",
+              "url": "https://clinicaltrials.gov/study/NCT03276832",
+              "title": "Imiquimod and Pembrolizumab in Treating Patients With Stage IIIB-IV Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-12-20"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2018,
+          "trial_count": 5,
+          "citation_count": 5,
+          "citations": [
+            {
+              "nct_id": "NCT03655756",
+              "url": "https://clinicaltrials.gov/study/NCT03655756",
+              "title": "pDNA Intralesional Cancer Vaccine for Cutaneous Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-11-05"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03454243",
+              "url": "https://clinicaltrials.gov/study/NCT03454243",
+              "title": "Oral Immunomodulatory Tyrosine Kinase Inhibitor in Patients With Locally Advanced or Metastatic Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-02-15"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2019,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT04067960",
+              "url": "https://clinicaltrials.gov/study/NCT04067960",
+              "title": "Pharmacogenomics Testing in the Optimal Use of Supportive Care Medications in Stage III-IV Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-06-06"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03993821",
+              "url": "https://clinicaltrials.gov/study/NCT03993821",
+              "title": "Burosumab for CSHS",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-07-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2020,
+          "trial_count": 5,
+          "citation_count": 5,
+          "citations": [
+            {
+              "nct_id": "NCT03338777",
+              "url": "https://clinicaltrials.gov/study/NCT03338777",
+              "title": "Suicide Plus Immune Gene Therapy for Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-02-20"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03022565",
+              "url": "https://clinicaltrials.gov/study/NCT03022565",
+              "title": "Vorinostat in Patients With Class 2 High Risk Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2021,
+          "trial_count": 8,
+          "citation_count": 8,
+          "citations": [
+            {
+              "nct_id": "NCT04891718",
+              "url": "https://clinicaltrials.gov/study/NCT04891718",
+              "title": "CIVO Intratumoural Microdosing of Anti-Cancer Therapies in Australia",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-09-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05180851",
+              "url": "https://clinicaltrials.gov/study/NCT05180851",
+              "title": "Safety and Efficacy of Recombinant Oncolytic Adenovirus L-IFN Injection in Relapsed/Refractory Solid Tumors Clinical Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-11-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2022,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT05498792",
+              "url": "https://clinicaltrials.gov/study/NCT05498792",
+              "title": "Study of CBL0137 in Combination With Ipilimumab and Nivolumab Therapy in Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-11-30"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05279027",
+              "url": "https://clinicaltrials.gov/study/NCT05279027",
+              "title": "Zr89 + PET Companion Trial",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-03-08"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2023,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT05961111",
+              "url": "https://clinicaltrials.gov/study/NCT05961111",
+              "title": "A Clinical Study on Oncolytic Virus Injection (R130 OV) for the Treatment of Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-06-24"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05932511",
+              "url": "https://clinicaltrials.gov/study/NCT05932511",
+              "title": "Topical Ascorbic Acid for Treatment of Squamous Cell Skin Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-06-12"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2024,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT06212388",
+              "url": "https://clinicaltrials.gov/study/NCT06212388",
+              "title": "Allogeneic Gammadelta T Cells Combined With Interferon-α1b or PD-1 Monoclonal Antibody in Stage III-IV Amenable to Surgical Resection Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-01-24"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06216938",
+              "url": "https://clinicaltrials.gov/study/NCT06216938",
+              "title": "RP1 in Primary Melanoma to Reduce the Risk of Sentinel Lymph Node Metastasis",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-03-07"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2025,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT07586904",
+              "url": "https://clinicaltrials.gov/study/NCT07586904",
+              "title": "Efficacy and Safety of Neoadjuvant Cadonilimab Plus High-Dose Recombinant Human Interferon α1b in Stage III/IV Melanoma.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-05-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06756295",
+              "url": "https://clinicaltrials.gov/study/NCT06756295",
+              "title": "A Phase I/ II Study of Fragmented Autoantigen Stimulated T-cell-immunotherapy Combined with Radiotherapy (FAST-CR)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-03-25"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2026,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT07628634",
+              "url": "https://clinicaltrials.gov/study/NCT07628634",
+              "title": "Feasibility Study on the Effect of a Methionine-Reduced Diet on Serum Levels in Pts w/ Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-05-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07813533",
+              "url": "https://clinicaltrials.gov/study/NCT07813533",
+              "title": "A Pilot Study to Examine the Efficacy and Tolerability of Sirolimus on Epidermal Nevi Lesions in Patients 6 Years Old and Above.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Early Phase 1"
+        },
+        {
+          "year": 2015,
+          "trial_count": 43,
+          "citation_count": 43,
+          "citations": [
+            {
+              "nct_id": "NCT02313012",
+              "url": "https://clinicaltrials.gov/study/NCT02313012",
+              "title": "Safety and PK Study of CC-90003 in Relapsed/Refractory Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-01-05"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02434354",
+              "url": "https://clinicaltrials.gov/study/NCT02434354",
+              "title": "A Tissue Collection Study of Pembrolizumab (MK-3475) in Subjects With Resectable Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-04"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2016,
+          "trial_count": 52,
+          "citation_count": 52,
+          "citations": [
+            {
+              "nct_id": "NCT02464007",
+              "url": "https://clinicaltrials.gov/study/NCT02464007",
+              "title": "Study of rSIFN-co for Patients With Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02575404",
+              "url": "https://clinicaltrials.gov/study/NCT02575404",
+              "title": "GR-MD-02 Plus Pembrolizumab in Melanoma, Non-small Cell Lung Cancer, and Squamous Cell Head and Neck Cancer Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-05-16"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2017,
+          "trial_count": 39,
+          "citation_count": 39,
+          "citations": [
+            {
+              "nct_id": "NCT03021460",
+              "url": "https://clinicaltrials.gov/study/NCT03021460",
+              "title": "Pembrolizumab and Ibrutinib in Treating Patients With Stage III-IV Melanoma That Cannot Be Removed by Surgery",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-01-31"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03107663",
+              "url": "https://clinicaltrials.gov/study/NCT03107663",
+              "title": "⁸⁹Zr-Df-IAB22M2C PET/CT in Patients With Selected Solid Malignancies or Hodgkin's Lymphoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-06-19"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2018,
+          "trial_count": 45,
+          "citation_count": 45,
+          "citations": [
+            {
+              "nct_id": "NCT03475134",
+              "url": "https://clinicaltrials.gov/study/NCT03475134",
+              "title": "TIL-ACT After NMA Chemo with IL-2 and Nivo Rescue in Metastatic Melanoma (mMEL)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-02-21"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03332589",
+              "url": "https://clinicaltrials.gov/study/NCT03332589",
+              "title": "E6201 Plus Dabrafenib for the Treatment of Metastatic Melanoma Central Nervous System Metastases (CNS)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-07-02"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2019,
+          "trial_count": 43,
+          "citation_count": 43,
+          "citations": [
+            {
+              "nct_id": "NCT03772899",
+              "url": "https://clinicaltrials.gov/study/NCT03772899",
+              "title": "Fecal Microbial Transplantation in Combination With Immunotherapy in Melanoma Patients (MIMic)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-03-27"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04121676",
+              "url": "https://clinicaltrials.gov/study/NCT04121676",
+              "title": "Anti-CD137 and Anti-CTLA-4 Monoclonal Antibody in Patients With Advanced Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-09-26"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2020,
+          "trial_count": 46,
+          "citation_count": 46,
+          "citations": [
+            {
+              "nct_id": "NCT04596033",
+              "url": "https://clinicaltrials.gov/study/NCT04596033",
+              "title": "TiTAN-1: Safety, Proliferation and Persistence of GEN-011 Autologous Cell Therapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-11-11"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03991741",
+              "url": "https://clinicaltrials.gov/study/NCT03991741",
+              "title": "Adoptive Cell Transfer of Autologous Tumor Infiltrating Lymphocytes and High-Dose Interleukin 2 in Select Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-10-07"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2021,
+          "trial_count": 48,
+          "citation_count": 48,
+          "citations": [
+            {
+              "nct_id": "NCT04389281",
+              "url": "https://clinicaltrials.gov/study/NCT04389281",
+              "title": "X-ray Psoralen Activated Cancer Therapy in Head and Neck, Breast, Sarcoma and Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-12-08"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05190185",
+              "url": "https://clinicaltrials.gov/study/NCT05190185",
+              "title": "A Clinical Trial of TAA06 Injection in Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-06-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2022,
+          "trial_count": 52,
+          "citation_count": 52,
+          "citations": [
+            {
+              "nct_id": "NCT05004025",
+              "url": "https://clinicaltrials.gov/study/NCT05004025",
+              "title": "Single Arm Trial of Tumor-Treating Fields in Combination With Nivolumab and Ipilimumab in Metastatic Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-02-28"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05303493",
+              "url": "https://clinicaltrials.gov/study/NCT05303493",
+              "title": "Camu-Camu Prebiotic and Immune Checkpoint Inhibition in Patients With Non-small Cell Lung Cancer and Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-06-29"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2023,
+          "trial_count": 31,
+          "citation_count": 31,
+          "citations": [
+            {
+              "nct_id": "NCT05789069",
+              "url": "https://clinicaltrials.gov/study/NCT05789069",
+              "title": "A Study of HFB200603 as a Single Agent and in Combination With Tislelizumab in Adult Patients With Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-05-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05867303",
+              "url": "https://clinicaltrials.gov/study/NCT05867303",
+              "title": "A RC198 Study in Subjects With Locally Advanced Unresectable or Metastatic Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-06-05"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2024,
+          "trial_count": 30,
+          "citation_count": 30,
+          "citations": [
+            {
+              "nct_id": "NCT06287463",
+              "url": "https://clinicaltrials.gov/study/NCT06287463",
+              "title": "Study of DCC-3084 in Participants With Advanced Malignancies Driven by the Mitogen-Activated Protein Kinase (MAPK) Pathway",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-05-14"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05973487",
+              "url": "https://clinicaltrials.gov/study/NCT05973487",
+              "title": "A Basket Study of Customized Autologous TCR-T Cell Therapies in Patients With Locally Advanced (Unresectable) or Metastatic Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-05-06"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2025,
+          "trial_count": 33,
+          "citation_count": 33,
+          "citations": [
+            {
+              "nct_id": "NCT06894771",
+              "url": "https://clinicaltrials.gov/study/NCT06894771",
+              "title": "A Study of MK-4700 Alone or With Pembrolizumab in Participants With Advanced or Metastatic Solid Tumors (MK-4700-001)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-04-23"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06626256",
+              "url": "https://clinicaltrials.gov/study/NCT06626256",
+              "title": "STIL101 for Injection for the Treatment of Locally Advanced, Metastatic or Unresectable Pancreatic Cancer, Colorectal Cancer, Renal Cell Cancer, Cervical Cancer and Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-12-05"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2026,
+          "trial_count": 26,
+          "citation_count": 26,
+          "citations": [
+            {
+              "nct_id": "NCT07562841",
+              "url": "https://clinicaltrials.gov/study/NCT07562841",
+              "title": "Au-TMP and Radiotherapy for Advanced Melanoma With Anti-PD-1 Therapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-04-28"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07664735",
+              "url": "https://clinicaltrials.gov/study/NCT07664735",
+              "title": "A Phase 1 Study to Evaluate the Safety and Efficacy of OPB-201 in Recurrent Endometrial and Platinum-resistant Ovarian Cancer.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-06-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1"
+        },
+        {
+          "year": 2015,
+          "trial_count": 24,
+          "citation_count": 24,
+          "citations": [
+            {
+              "nct_id": "NCT02275416",
+              "url": "https://clinicaltrials.gov/study/NCT02275416",
+              "title": "Safety of UV1 Vaccination in Combination With Ipilimumab in Patients With Unresectable or Metastatic Malignant Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-02-02"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02332668",
+              "url": "https://clinicaltrials.gov/study/NCT02332668",
+              "title": "A Study of Pembrolizumab (MK-3475) in Pediatric Participants With an Advanced Solid Tumor or Lymphoma (MK-3475-051/KEYNOTE-051)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-03-19"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2016,
+          "trial_count": 22,
+          "citation_count": 22,
+          "citations": [
+            {
+              "nct_id": "NCT02771626",
+              "url": "https://clinicaltrials.gov/study/NCT02771626",
+              "title": "Study CB-839 in Combination With Nivolumab in Patients With Melanoma, Clear Cell Renal Cell Carcinoma (ccRCC) and Non-Small Cell Lung Cancer (NSCLC)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-08-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02570308",
+              "url": "https://clinicaltrials.gov/study/NCT02570308",
+              "title": "A Study of the Intra-Patient Escalation Dosing Regimen With IMCgp100 in Patients With Advanced Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-02-29"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2017,
+          "trial_count": 24,
+          "citation_count": 24,
+          "citations": [
+            {
+              "nct_id": "NCT02650986",
+              "url": "https://clinicaltrials.gov/study/NCT02650986",
+              "title": "Gene-Modified T Cells With or Without Decitabine in Treating Patients With Advanced Malignancies Expressing NY-ESO-1",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-07-14"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03278665",
+              "url": "https://clinicaltrials.gov/study/NCT03278665",
+              "title": "4SC-202 in Combination With Pembrolizumab in Patients Primary Refractory/Non-responding to Prior Anti-PD-1 Therapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-09-25"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2018,
+          "trial_count": 31,
+          "citation_count": 31,
+          "citations": [
+            {
+              "nct_id": "NCT02902042",
+              "url": "https://clinicaltrials.gov/study/NCT02902042",
+              "title": "Encorafenib + Binimetinib + Pembrolizumab in Patients With Unresectable or Metastatic BRAF V600 Mutant Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-04-24"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03111901",
+              "url": "https://clinicaltrials.gov/study/NCT03111901",
+              "title": "Low-dose Interleukin-2 and Pembrolizumab in Melanoma and Renal Cell Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-10-29"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2019,
+          "trial_count": 23,
+          "citation_count": 23,
+          "citations": [
+            {
+              "nct_id": "NCT04198766",
+              "url": "https://clinicaltrials.gov/study/NCT04198766",
+              "title": "Study of INBRX-106 and INBRX-106 in Combination With Pembrolizumab (Keytruda®) in Subjects With Locally Advanced or Metastatic Solid Tumors (Hexavalent OX40 Agonist)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-12-10"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04172454",
+              "url": "https://clinicaltrials.gov/study/NCT04172454",
+              "title": "Safety and Efficacy of AK104, a PD-1/CTLA-4 Bispecific Antibody, in Selected Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-12-20"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2020,
+          "trial_count": 28,
+          "citation_count": 28,
+          "citations": [
+            {
+              "nct_id": "NCT04729543",
+              "url": "https://clinicaltrials.gov/study/NCT04729543",
+              "title": "MAGE-C2 TCR T Cell Trial to Treat Melanoma and Head and Neck Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-10-20"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03958383",
+              "url": "https://clinicaltrials.gov/study/NCT03958383",
+              "title": "IT-hu14.18-IL2 With Radiation, Nivolumab and Ipilimumab for Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-01-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2021,
+          "trial_count": 31,
+          "citation_count": 31,
+          "citations": [
+            {
+              "nct_id": "NCT04895709",
+              "url": "https://clinicaltrials.gov/study/NCT04895709",
+              "title": "A Study of BMS-986340 as Monotherapy and as Combination Therapy in Participants With Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-05-27"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05086692",
+              "url": "https://clinicaltrials.gov/study/NCT05086692",
+              "title": "A Beta-only IL-2 ImmunoTherapY Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-08-27"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2022,
+          "trial_count": 25,
+          "citation_count": 25,
+          "citations": [
+            {
+              "nct_id": "NCT05620134",
+              "url": "https://clinicaltrials.gov/study/NCT05620134",
+              "title": "Study of JK08 in Patients with Unresectable Locally Advanced or Metastatic Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-10-17"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05539118",
+              "url": "https://clinicaltrials.gov/study/NCT05539118",
+              "title": "Interferon-α1b Combined With Toripalimab and Anlotinib Hydrochloride in Advanced Unresectable Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-09-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2023,
+          "trial_count": 25,
+          "citation_count": 25,
+          "citations": [
+            {
+              "nct_id": "NCT02994498",
+              "url": "https://clinicaltrials.gov/study/NCT02994498",
+              "title": "Safety and Efficacy of DCB-BO1301 in Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-03"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05661955",
+              "url": "https://clinicaltrials.gov/study/NCT05661955",
+              "title": "A Study to Investigate the Antitumor Activity, Safety, Tolerability, and Pharmacokinetics of BGB-A445 in Combination With Tislelizumab in Participants With Select Advanced Solid Tumors.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-01-09"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2024,
+          "trial_count": 18,
+          "citation_count": 18,
+          "citations": [
+            {
+              "nct_id": "NCT06214156",
+              "url": "https://clinicaltrials.gov/study/NCT06214156",
+              "title": "A Clinical Study of T3011 in Subjects With Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-01-26"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06784648",
+              "url": "https://clinicaltrials.gov/study/NCT06784648",
+              "title": "Different Doses of BI-1607 in Combination With Pembrolizumab and Ipilimumab, in Participants With Unresectable or Metastatic Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-12-11"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2025,
+          "trial_count": 21,
+          "citation_count": 21,
+          "citations": [
+            {
+              "nct_id": "NCT06708663",
+              "url": "https://clinicaltrials.gov/study/NCT06708663",
+              "title": "HX009+ IN10018 With or Without Standard Chemotherapy for Advanced Solid Tumours",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-01-17"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06940739",
+              "url": "https://clinicaltrials.gov/study/NCT06940739",
+              "title": "A Study to Investigate the Safety and Efficacy of IOV-3001 in Adults With Advanced Melanoma Who Will Receive Lifileucel",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-03-11"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2026,
+          "trial_count": 20,
+          "citation_count": 20,
+          "citations": [
+            {
+              "nct_id": "NCT07751042",
+              "url": "https://clinicaltrials.gov/study/NCT07751042",
+              "title": "Phase 1/2 Study of Intravenous Injection of STX-003 in Advanced Solid Tumors as Monotherapy or in Combination With Pembrolizumab",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-06-30"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07288112",
+              "url": "https://clinicaltrials.gov/study/NCT07288112",
+              "title": "DOC1021 Dendritic Cell Immunotherapy for Refractory Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-04-06"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 1/Phase 2"
+        },
+        {
+          "year": 2015,
+          "trial_count": 41,
+          "citation_count": 41,
+          "citations": [
+            {
+              "nct_id": "NCT02410863",
+              "url": "https://clinicaltrials.gov/study/NCT02410863",
+              "title": "Biopsy- and Biology-driven Optimization of Targeted Therapy in Subjects With Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-11"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02263898",
+              "url": "https://clinicaltrials.gov/study/NCT02263898",
+              "title": "Intermittent LGX818 and MEK162 in Treating Patients With Metastatic Melanoma Who Have BRAFV600 Mutations",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2016,
+          "trial_count": 36,
+          "citation_count": 36,
+          "citations": [
+            {
+              "nct_id": "NCT02743819",
+              "url": "https://clinicaltrials.gov/study/NCT02743819",
+              "title": "Pembrolizumab and Ipilimumab After Prior Immunotherapy for Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-06-28"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03013101",
+              "url": "https://clinicaltrials.gov/study/NCT03013101",
+              "title": "Safety and Efficacy of Recombinant Humanized Anti-PD-1 mAb for Patients With Locally Advanced or Metastatic Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-12-28"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2017,
+          "trial_count": 40,
+          "citation_count": 40,
+          "citations": [
+            {
+              "nct_id": "NCT03175432",
+              "url": "https://clinicaltrials.gov/study/NCT03175432",
+              "title": "Bevacizumab and Atezolizumab With or Without Cobimetinib in Treating Patients With Untreated Melanoma Brain Metastases",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-06-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02740920",
+              "url": "https://clinicaltrials.gov/study/NCT02740920",
+              "title": "Response to Pembrolizumab in Metastatic Melanoma: Computed Tomography Texture Analysis as a Predictive Biomarker",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-01-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2018,
+          "trial_count": 43,
+          "citation_count": 43,
+          "citations": [
+            {
+              "nct_id": "NCT03544723",
+              "url": "https://clinicaltrials.gov/study/NCT03544723",
+              "title": "Safety and Efficacy of p53 Gene Therapy Combined With Immune Checkpoint Inhibitors in Solid Tumors.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-10-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03511391",
+              "url": "https://clinicaltrials.gov/study/NCT03511391",
+              "title": "CHEckpoint Inhibition in Combination With an Immunoboost of External Beam Radiotherapy in Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-03-09"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2019,
+          "trial_count": 45,
+          "citation_count": 45,
+          "citations": [
+            {
+              "nct_id": "NCT04180995",
+              "url": "https://clinicaltrials.gov/study/NCT04180995",
+              "title": "Toripalimab in Combination With Axitinib in Patients With Localized Mucosal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-08-06"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04059224",
+              "url": "https://clinicaltrials.gov/study/NCT04059224",
+              "title": "TraMel-WT: A Trial of Trametinib in Patients With Advanced Pretreated BRAFV600 Wild-type Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-01-28"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2020,
+          "trial_count": 47,
+          "citation_count": 47,
+          "citations": [
+            {
+              "nct_id": "NCT04152863",
+              "url": "https://clinicaltrials.gov/study/NCT04152863",
+              "title": "Efficacy, Safety, and Tolerability of Gebasaxturev (V937) Administered Intravenously or Intratumorally With Pembrolizumab (MK-3475) Versus Pembrolizumab Alone in Participants With Advanced/Metastatic Melanoma (V937-011)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-06-05"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04570332",
+              "url": "https://clinicaltrials.gov/study/NCT04570332",
+              "title": "BO-112 With Pembrolizumab in Unresectable Malignant Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-12-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2021,
+          "trial_count": 57,
+          "citation_count": 57,
+          "citations": [
+            {
+              "nct_id": "NCT05061017",
+              "url": "https://clinicaltrials.gov/study/NCT05061017",
+              "title": "Pixatimod (PG545) Plus Nivolumab in PD-1 Relapsed/Refractory Metastatic Melanoma and NSCLC and With Nivolumab and Low-dose Cyclophosphamide in MSS Metastatic Colorectal Carcinoma (mCRC)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-12-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04899921",
+              "url": "https://clinicaltrials.gov/study/NCT04899921",
+              "title": "Troriluzole or Placebo Plus Ipi Plus Nivo in Mel Brain Mets",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-06-30"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2022,
+          "trial_count": 48,
+          "citation_count": 48,
+          "citations": [
+            {
+              "nct_id": "NCT05169437",
+              "url": "https://clinicaltrials.gov/study/NCT05169437",
+              "title": "Niraparib in the Treatment of Patients With Advanced PALB2 Mutated Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-03-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05457842",
+              "url": "https://clinicaltrials.gov/study/NCT05457842",
+              "title": "A Study to Find the Best Dose of ASP5354 to Show Lymph Nodes in People With Breast Cancer or Melanoma During Surgery",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-08-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2023,
+          "trial_count": 37,
+          "citation_count": 37,
+          "citations": [
+            {
+              "nct_id": "NCT06229340",
+              "url": "https://clinicaltrials.gov/study/NCT06229340",
+              "title": "Leflunomide or Combination of MEK Inhibitor and Hydroxychloroquine for Refractory Patients With RAS Mutations",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-10-03"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05436990",
+              "url": "https://clinicaltrials.gov/study/NCT05436990",
+              "title": "Antitumor Activity of Vactosertib in Combination With Pembrolizumab in Acral and Mucosal Melanoma Patients Progressed From Prior Immune Check Point Inhibitor",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-02-09"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2024,
+          "trial_count": 27,
+          "citation_count": 27,
+          "citations": [
+            {
+              "nct_id": "NCT06416085",
+              "url": "https://clinicaltrials.gov/study/NCT06416085",
+              "title": "Psilocybin-assisted Existential, Attachment and RelationaL (PEARL) Therapy for Patients With Advanced Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-06-06"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06548789",
+              "url": "https://clinicaltrials.gov/study/NCT06548789",
+              "title": "Neoadjuvant Immune Checkpoint Blockade + a Prebiotic Food-enriched Dietary Intervention to Optimize Immune Response in Melanoma: NEO-PreFED",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-09-16"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2025,
+          "trial_count": 36,
+          "citation_count": 36,
+          "citations": [
+            {
+              "nct_id": "NCT06508827",
+              "url": "https://clinicaltrials.gov/study/NCT06508827",
+              "title": "Intravenous Iron in Combination With Standard of Care Immunotherapy in Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-05"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06984328",
+              "url": "https://clinicaltrials.gov/study/NCT06984328",
+              "title": "Study of the Effectiveness and Safety of Acasunlimab Alone and With Pembrolizumab to Treat Advanced Melanoma of the Skin That Has Returned After Treatment With an Approved Checkpoint Inhibitor Therapy (ABBIL1TY MELANOMA-07)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-07-25"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2026,
+          "trial_count": 37,
+          "citation_count": 37,
+          "citations": [
+            {
+              "nct_id": "NCT06999980",
+              "url": "https://clinicaltrials.gov/study/NCT06999980",
+              "title": "Neo IRENIE (NEOadjuvant Ipilimumab, RElatlimab, NIvolumab Evaluation)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-02-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07576725",
+              "url": "https://clinicaltrials.gov/study/NCT07576725",
+              "title": "Low Dose, Reduced Frequency Nivolumab for the Treatment of Unresectable or Metastatic Cancer, AFFORD IO Trial",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-12-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2"
+        },
+        {
+          "year": 2015,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02339571",
+              "url": "https://clinicaltrials.gov/study/NCT02339571",
+              "title": "A Phase II/III Trial of Nivolumab, Ipilimumab, and GM-CSF in Patients With Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-11-23"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2016,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2017,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT02962947",
+              "url": "https://clinicaltrials.gov/study/NCT02962947",
+              "title": "MELABLOCK: A Clinical Trial on the Efficacy and Safety of Propranolol 80 mg in Melanoma Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-06"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT01861938",
+              "url": "https://clinicaltrials.gov/study/NCT01861938",
+              "title": "Modified Melanoma Vaccine for High Risk or Low Residual Disease Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-03"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2018,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT03470922",
+              "url": "https://clinicaltrials.gov/study/NCT03470922",
+              "title": "A Study of Relatlimab Plus Nivolumab Versus Nivolumab Alone in Participants With Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-04-11"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03755739",
+              "url": "https://clinicaltrials.gov/study/NCT03755739",
+              "title": "Trans-Artery/Intra-Tumor Infusion of Checkpoint Inhibitors Plus Chemodrug for Immunotherapy of Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-11-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2019,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2020,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2021,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT04901988",
+              "url": "https://clinicaltrials.gov/study/NCT04901988",
+              "title": "Circulating Tumour DNA guidEd Therapy for Stage IIB/C mElanoma After surgiCal resecTION",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-11-08"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03928275",
+              "url": "https://clinicaltrials.gov/study/NCT03928275",
+              "title": "The Response to Intralesional IL-2 and/or BCG Treatment for Cutaneous Metastatic Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-12-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2022,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2023,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT05987332",
+              "url": "https://clinicaltrials.gov/study/NCT05987332",
+              "title": "IDE196 (Darovasertib) in Combination With Crizotinib as First-line Therapy in Metastatic Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-10-31"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05768178",
+              "url": "https://clinicaltrials.gov/study/NCT05768178",
+              "title": "DETERMINE Trial Treatment Arm 05: Vemurafenib in Combination With Cobimetinib in Adult Patients With BRAF Positive Cancers.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-03-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2024,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT06581406",
+              "url": "https://clinicaltrials.gov/study/NCT06581406",
+              "title": "A Randomized, Phase 2/3 Study to Investigate the Efficacy and Safety of RP2 in Combination With Nivolumab in Immune Checkpoint Inhibitor-Naïve Adult Patients With Metastatic Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-12-17"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2025,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT05770544",
+              "url": "https://clinicaltrials.gov/study/NCT05770544",
+              "title": "DETERMINE Trial Treatment Arm 03: Entrectinib in Adult, Paediatric and Teenage/Young Adult Patients With ROS1 Gene Fusion-Positive Cancers.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-11-30"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06697301",
+              "url": "https://clinicaltrials.gov/study/NCT06697301",
+              "title": "Safety and Efficacy of EIK1001 in Combo With Pembro Versus Placebo and Pembro as First-Line Therapy in Patients With Advanced Melanoma.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-05-22"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2026,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT07440290",
+              "url": "https://clinicaltrials.gov/study/NCT07440290",
+              "title": "DETERMINE Trial Treatment Arm 07: Dabrafenib in Combination With Trametinib in Adult, Paediatric and Teenage/Young Adult Patients With BRAF V600 Mutation-Positive Cancers.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-04-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 2/Phase 3"
+        },
+        {
+          "year": 2015,
+          "trial_count": 10,
+          "citation_count": 10,
+          "citations": [
+            {
+              "nct_id": "NCT02388906",
+              "url": "https://clinicaltrials.gov/study/NCT02388906",
+              "title": "Efficacy Study of Nivolumab Compared to Ipilimumab in Prevention of Recurrence of Melanoma After Complete Resection of Stage IIIb/c or Stage IV Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-03-16"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02427893",
+              "url": "https://clinicaltrials.gov/study/NCT02427893",
+              "title": "Trial of Vemurafenib and Cobimetinib in Patients With Advanced BRAFV600 Mutant Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-08"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2016,
+          "trial_count": 9,
+          "citation_count": 9,
+          "citations": [
+            {
+              "nct_id": "NCT02752074",
+              "url": "https://clinicaltrials.gov/study/NCT02752074",
+              "title": "A Phase 3 Study of Pembrolizumab + Epacadostat or Placebo in Subjects With Unresectable or Metastatic Melanoma (Keynote-252 / ECHO-301)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-06-21"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02938299",
+              "url": "https://clinicaltrials.gov/study/NCT02938299",
+              "title": "Neoadjuvant L19IL2/L19TNF- Pivotal Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-07-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2017,
+          "trial_count": 8,
+          "citation_count": 8,
+          "citations": [
+            {
+              "nct_id": "NCT03329846",
+              "url": "https://clinicaltrials.gov/study/NCT03329846",
+              "title": "An Investigational Immuno-therapy Study of BMS-986205 Combined With Nivolumab, Compared to Nivolumab by Itself, in Patients With Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-11-30"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02908672",
+              "url": "https://clinicaltrials.gov/study/NCT02908672",
+              "title": "A Study of Atezolizumab Plus Cobimetinib and Vemurafenib Versus Placebo Plus Cobimetinib and Vemurafenib in Previously Untreated BRAFv600 Mutation-Positive Patients With Metastatic or Unresectable Locally Advanced Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-01-13"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2018,
+          "trial_count": 6,
+          "citation_count": 6,
+          "citations": [
+            {
+              "nct_id": "NCT03553836",
+              "url": "https://clinicaltrials.gov/study/NCT03553836",
+              "title": "Safety and Efficacy of Pembrolizumab Compared to Placebo in Resected High-risk Stage II Melanoma (MK-3475-716/KEYNOTE-716)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-09-12"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03635983",
+              "url": "https://clinicaltrials.gov/study/NCT03635983",
+              "title": "A Study of NKTR-214 Combined With Nivolumab vs Nivolumab Alone in Participants With Previously Untreated Inoperable or Metastatic Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-09-21"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2019,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT04157985",
+              "url": "https://clinicaltrials.gov/study/NCT04157985",
+              "title": "Evaluating Length of Treatment With PD-1/PD-L1 Inhibitor in Advanced Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-11-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04099251",
+              "url": "https://clinicaltrials.gov/study/NCT04099251",
+              "title": "Effectiveness Study of Nivolumab Compared to Placebo in Prevention of Recurrent Melanoma After Complete Resection of Stage IIB/C Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-10-28"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2020,
+          "trial_count": 4,
+          "citation_count": 4,
+          "citations": [
+            {
+              "nct_id": "NCT04277663",
+              "url": "https://clinicaltrials.gov/study/NCT04277663",
+              "title": "The Study of IBI310 in Combination With IBI308 Compared to High-Dose Interferon In Patients With Acral Melanoma That Has Been Removed by Surgery",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-04-17"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04410445",
+              "url": "https://clinicaltrials.gov/study/NCT04410445",
+              "title": "Study to Compare Adjuvant Immunotherapy of Bempegaldesleukin Combined With Nivolumab Versus Nivolumab After Complete Resection of Melanoma in Patients at High Risk for Recurrence",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-07-27"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2021,
+          "trial_count": 5,
+          "citation_count": 5,
+          "citations": [
+            {
+              "nct_id": "NCT04949113",
+              "url": "https://clinicaltrials.gov/study/NCT04949113",
+              "title": "Neoadjuvant Ipilimumab Plus Nivolumab Versus Standard Adjuvant Nivolumab in Macroscopic Stage III Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-07-08"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05002569",
+              "url": "https://clinicaltrials.gov/study/NCT05002569",
+              "title": "A Study to Assess Adjuvant Immunotherapy With Nivolumab Plus Relatlimab Versus Nivolumab Alone After Complete Resection of Stage III-IV Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-10-19"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2022,
+          "trial_count": 13,
+          "citation_count": 13,
+          "citations": [
+            {
+              "nct_id": "NCT05022901",
+              "url": "https://clinicaltrials.gov/study/NCT05022901",
+              "title": "An Open-Label Expanded Access Study of the Melphalan/Hepatic Delivery System (HDS) in Patients With Hepatic Dominant Ocular Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-06-10"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05270044",
+              "url": "https://clinicaltrials.gov/study/NCT05270044",
+              "title": "Adjuvant Encorafenib and Binimetinib in High-risk Stage II Melanoma With a BRAF Mutation.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-05-02"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2023,
+          "trial_count": 15,
+          "citation_count": 15,
+          "citations": [
+            {
+              "nct_id": "NCT05625399",
+              "url": "https://clinicaltrials.gov/study/NCT05625399",
+              "title": "A Study of Subcutaneous Nivolumab + Relatlimab Fixed-dose Combination (FDC) in Previously Untreated Metastatic or Unresectable Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-03-06"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05868707",
+              "url": "https://clinicaltrials.gov/study/NCT05868707",
+              "title": "OH2 Injection in Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-03-08"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2024,
+          "trial_count": 10,
+          "citation_count": 10,
+          "citations": [
+            {
+              "nct_id": "NCT06246149",
+              "url": "https://clinicaltrials.gov/study/NCT06246149",
+              "title": "Adjuvant Tebentafusp in High Risk Ocular Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-11-11"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06500455",
+              "url": "https://clinicaltrials.gov/study/NCT06500455",
+              "title": "Testing Longer Duration Radiation Therapy Versus the Usual Radiation Therapy in Patients With Cancer That Has Spread to the Brain",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-12-12"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2025,
+          "trial_count": 6,
+          "citation_count": 6,
+          "citations": [
+            {
+              "nct_id": "NCT07530887",
+              "url": "https://clinicaltrials.gov/study/NCT07530887",
+              "title": "NO Re-excision MelanomA - NORMA 2",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-11-13"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06794775",
+              "url": "https://clinicaltrials.gov/study/NCT06794775",
+              "title": "SWE-NEO: Swedish NeoAdjuvant Trial Comparing Monotherapy to Combined Immunotherapy in Resectable Stage III Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-07-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2026,
+          "trial_count": 5,
+          "citation_count": 5,
+          "citations": [
+            {
+              "nct_id": "NCT07015190",
+              "url": "https://clinicaltrials.gov/study/NCT07015190",
+              "title": "Neoadjuvant Darovasertib in Primary Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-01-25"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07068074",
+              "url": "https://clinicaltrials.gov/study/NCT07068074",
+              "title": "Comparing the Effectiveness of Less Invasive Procedures With the Current Standard of Care for the Treatment of Older Adults With Early-Stage Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-04-17"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 3"
+        },
+        {
+          "year": 2015,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT02626065",
+              "url": "https://clinicaltrials.gov/study/NCT02626065",
+              "title": "Immune Modulation Study in Patients With Metastatic Melanoma Treated With Anti-PD1 Monoclonal Antibodies",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-04-23"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02379000",
+              "url": "https://clinicaltrials.gov/study/NCT02379000",
+              "title": "TTT Versus TTT and Triamcinolone to Decrease Exudation in Choroidal Melanoma After Proton Beam Therapy",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2016,
+          "trial_count": 1,
+          "citation_count": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02685592",
+              "url": "https://clinicaltrials.gov/study/NCT02685592",
+              "title": "Photodynamic Therapy for Lentigo Maligna Using 5-aminolevulinic Acid Nanoemulsion as a Light Sensitizing Cream",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-02"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2017,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT04074460",
+              "url": "https://clinicaltrials.gov/study/NCT04074460",
+              "title": "Volatile Anaesthesia and Perioperative Outcomes Related to Cancer Feasibility Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-08-27"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03315975",
+              "url": "https://clinicaltrials.gov/study/NCT03315975",
+              "title": "Flu Vaccine Responses in the Setting of Melanoma Treatment",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-10-20"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2018,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT03313544",
+              "url": "https://clinicaltrials.gov/study/NCT03313544",
+              "title": "Evolution of the Heart Function When Monitoring Immunotherapies Anti-cancerous Inhibiting PD-1",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-04-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03340506",
+              "url": "https://clinicaltrials.gov/study/NCT03340506",
+              "title": "Dabrafenib and/or Trametinib Rollover Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-01-26"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2019,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT03673332",
+              "url": "https://clinicaltrials.gov/study/NCT03673332",
+              "title": "Elderly Cancer PatIents, Safety and qualiTy of Life Under immunOtheraPies",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-10-16"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03715205",
+              "url": "https://clinicaltrials.gov/study/NCT03715205",
+              "title": "Study to Evaluate the Safety of Pembrolizumab in Participants With Unresectable or Metastatic Melanoma or Non-small Cell Lung Cancer in India (MK-3475-593/KEYNOTE-593)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-01-31"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2020,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT04261179",
+              "url": "https://clinicaltrials.gov/study/NCT04261179",
+              "title": "Study Comparing Lymphoseek® vs. Albumin Nanocolloid in Head and Neck, Melanoma and Breast Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-03"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04320316",
+              "url": "https://clinicaltrials.gov/study/NCT04320316",
+              "title": "A Trial to Assess the Safety and Efficacy of KRN23 in Epidermal Nevus Syndrome (ENS)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-07-31"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2021,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2022,
+          "trial_count": 2,
+          "citation_count": 2,
+          "citations": [
+            {
+              "nct_id": "NCT05467137",
+              "url": "https://clinicaltrials.gov/study/NCT05467137",
+              "title": "Sentinel Lymph Node Detection in Patients With Stage Ib-III Melanoma Using MSOT and ICG",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06116461",
+              "url": "https://clinicaltrials.gov/study/NCT06116461",
+              "title": "Nivolumab Dose Optimization in Patients With a Complete, Partial or Stable Response",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-01-05"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2023,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2024,
+          "trial_count": 0,
+          "citation_count": 0,
+          "citations": [],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2025,
+          "trial_count": 3,
+          "citation_count": 3,
+          "citations": [
+            {
+              "nct_id": "NCT07004335",
+              "url": "https://clinicaltrials.gov/study/NCT07004335",
+              "title": "Efficacy and Safety of Iparomlimab and Tuvonralimab Injection in Combination With Bevacizumab After Progression on Anti-PD-(L)1 Therapy in Advanced Melanoma: A Prospective, Single-Arm, Exploratory Clinical Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-07-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07092410",
+              "url": "https://clinicaltrials.gov/study/NCT07092410",
+              "title": "Surgical or Radiotherapeutic Intervention Concerning Large Singular Stable to Progressive Metastases in Patients With BRAFV600-mutated Melanoma Receiving Treatment With Encorafenib + Binimetinib",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-08"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2026,
+          "trial_count": 5,
+          "citation_count": 5,
+          "citations": [
+            {
+              "nct_id": "NCT07854522",
+              "url": "https://clinicaltrials.gov/study/NCT07854522",
+              "title": "A Study of QL1706 Combined With OH2 Injection in Perioperative Treatment of Stage III Resectable Acral Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-10"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07459543",
+              "url": "https://clinicaltrials.gov/study/NCT07459543",
+              "title": "A Study to Assess the Safety, and Tolerability of Nivolumab + Relatlimab Fixed-Dose Combination (FDC) In Unresectable or Metastatic Melanoma Participants In India",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-11-15"
+                }
+              ]
+            }
+          ],
+          "phase": "Phase 4"
+        },
+        {
+          "year": 2015,
+          "trial_count": 25,
+          "citation_count": 25,
+          "citations": [
+            {
+              "nct_id": "NCT02457065",
+              "url": "https://clinicaltrials.gov/study/NCT02457065",
+              "title": "Skin Care Behaviors Among Melanoma Survivors and Their Families",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-03"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02650492",
+              "url": "https://clinicaltrials.gov/study/NCT02650492",
+              "title": "Immunostimulating Interstitial Laser Thermotherapy in Malignant Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2016,
+          "trial_count": 16,
+          "citation_count": 16,
+          "citations": [
+            {
+              "nct_id": "NCT02846714",
+              "url": "https://clinicaltrials.gov/study/NCT02846714",
+              "title": "Family Lifestyle Actions and Risk Education Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-07"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02854657",
+              "url": "https://clinicaltrials.gov/study/NCT02854657",
+              "title": "Teaching Skin Self -Examination to Melanoma Patients and Their Skin Check Partners",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-05"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2017,
+          "trial_count": 24,
+          "citation_count": 24,
+          "citations": [
+            {
+              "nct_id": "NCT03246633",
+              "url": "https://clinicaltrials.gov/study/NCT03246633",
+              "title": "Perceptual Expertise Training for Triage of Moles",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-08-10"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03329755",
+              "url": "https://clinicaltrials.gov/study/NCT03329755",
+              "title": "Optimization of the Patient Care Pathway in Immuno-oncology",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-12-26"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2018,
+          "trial_count": 25,
+          "citation_count": 25,
+          "citations": [
+            {
+              "nct_id": "NCT03699995",
+              "url": "https://clinicaltrials.gov/study/NCT03699995",
+              "title": "MoleMapper, Visiomed, and Confocal Microscopy in Screening Participants for Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-05-18"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03906253",
+              "url": "https://clinicaltrials.gov/study/NCT03906253",
+              "title": "Effectiveness of Fractionated Laser Resurfacing to Protect Geriatric Skin From Actinic Neoplasia",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-01-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2019,
+          "trial_count": 26,
+          "citation_count": 26,
+          "citations": [
+            {
+              "nct_id": "NCT07511933",
+              "url": "https://clinicaltrials.gov/study/NCT07511933",
+              "title": "Novel Ga68-PSMA PET/CT-tracer to Differentiate Between Radiation Necrosis and Tumor Progression in Brain Metastases",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-12-24"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03948724",
+              "url": "https://clinicaltrials.gov/study/NCT03948724",
+              "title": "Impact of Therapeutic Patient Education on the Toxicity of Immune Checkpoint Inhibitors in Oncology",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-12-11"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2020,
+          "trial_count": 21,
+          "citation_count": 21,
+          "citations": [
+            {
+              "nct_id": "NCT04424719",
+              "url": "https://clinicaltrials.gov/study/NCT04424719",
+              "title": "Follow-up of Patients With Uveal Melanoma Adapted to the Risk of Relapse (SALOME)",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-07-08"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06207747",
+              "url": "https://clinicaltrials.gov/study/NCT06207747",
+              "title": "Quantitative Analysis of PET/CT Images of Immune Related Side Effects in Metastatic Melanoma Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-09-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2021,
+          "trial_count": 34,
+          "citation_count": 34,
+          "citations": [
+            {
+              "nct_id": "NCT04726319",
+              "url": "https://clinicaltrials.gov/study/NCT04726319",
+              "title": "Family History App in Personalized Medicine",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-09-20"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04385732",
+              "url": "https://clinicaltrials.gov/study/NCT04385732",
+              "title": "Melanoma Surveillance Photography (MSP) to Improve Early Detection of Melanoma in Ultra-high and High Risk Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-03-03"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2022,
+          "trial_count": 26,
+          "citation_count": 26,
+          "citations": [
+            {
+              "nct_id": "NCT05307289",
+              "url": "https://clinicaltrials.gov/study/NCT05307289",
+              "title": "Study of Alterations in Tumor Metabolism Associated With the Development of Immunotherapy Resistance in Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-05-25"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05253872",
+              "url": "https://clinicaltrials.gov/study/NCT05253872",
+              "title": "The MELAcare Study: A New Method for Surveillance of Melanoma Patients",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-03-09"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2023,
+          "trial_count": 26,
+          "citation_count": 26,
+          "citations": [
+            {
+              "nct_id": "NCT05675709",
+              "url": "https://clinicaltrials.gov/study/NCT05675709",
+              "title": "Enhancing Skin Cancer Early Detection and Treatment in Primary Care",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-04-25"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05373823",
+              "url": "https://clinicaltrials.gov/study/NCT05373823",
+              "title": "MySmartSkin Online Skin Self-exam Intervention for Melanoma Survivors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-03-06"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2024,
+          "trial_count": 26,
+          "citation_count": 26,
+          "citations": [
+            {
+              "nct_id": "NCT06550674",
+              "url": "https://clinicaltrials.gov/study/NCT06550674",
+              "title": "Identification of New Candidate Genes for Hereditary Predisposition to Uveal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-10-29"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06694571",
+              "url": "https://clinicaltrials.gov/study/NCT06694571",
+              "title": "Sun Protection and Tanning Awareness in Rural Schools",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-10-14"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2025,
+          "trial_count": 28,
+          "citation_count": 28,
+          "citations": [
+            {
+              "nct_id": "NCT07028008",
+              "url": "https://clinicaltrials.gov/study/NCT07028008",
+              "title": "Evaluate the Safety and Efficacy of Autologous Tumor-infiltrating Lymphocyte in Patients With Refractory Melanoma Who Failed to Immune Checkpoint Inhibitors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-10-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07042243",
+              "url": "https://clinicaltrials.gov/study/NCT07042243",
+              "title": "The Florida ASCENT Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-12-05"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2026,
+          "trial_count": 33,
+          "citation_count": 33,
+          "citations": [
+            {
+              "nct_id": "NCT06999499",
+              "url": "https://clinicaltrials.gov/study/NCT06999499",
+              "title": "Development of an Aid to Melanoma Detection Using Artificial Intelligence Algorithms Based on Images From the VECTRA 3D System.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-03-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07830225",
+              "url": "https://clinicaltrials.gov/study/NCT07830225",
+              "title": "A Pilot Study of ctDNA-Guided Immune Checkpoint Inhibitor Duration in Patients With Advanced Melanoma.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-09-03"
+                }
+              ]
+            }
+          ],
+          "phase": "Not Applicable"
+        },
+        {
+          "year": 2015,
+          "trial_count": 28,
+          "citation_count": 28,
+          "citations": [
+            {
+              "nct_id": "NCT04792463",
+              "url": "https://clinicaltrials.gov/study/NCT04792463",
+              "title": "Frequency and Clinical Phenotype of BAP1 Hereditary Predisposition Syndrome",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-03-03"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06075524",
+              "url": "https://clinicaltrials.gov/study/NCT06075524",
+              "title": "Evaluation of Anti-PD-1 Therapy by Monitoring T Cell Responses in Melanoma, Lung and Other Cancer Types",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2015-06-15"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2016,
+          "trial_count": 29,
+          "citation_count": 29,
+          "citations": [
+            {
+              "nct_id": "NCT02909348",
+              "url": "https://clinicaltrials.gov/study/NCT02909348",
+              "title": "Immunophenotyping of Melanoma Patients on Treatment With Pembrolizumab",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT02909517",
+              "url": "https://clinicaltrials.gov/study/NCT02909517",
+              "title": "The Role of Inflammation in Ocular Tumours",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2016-03"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2017,
+          "trial_count": 31,
+          "citation_count": 31,
+          "citations": [
+            {
+              "nct_id": "NCT05740501",
+              "url": "https://clinicaltrials.gov/study/NCT05740501",
+              "title": "Pharmacokinetic Profiling of Pembrolizumab and Nivolumab in Patients With Melanoma and/or Non-Small Cell Lung Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-04-26"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT03319693",
+              "url": "https://clinicaltrials.gov/study/NCT03319693",
+              "title": "Molecular Characterization of Primary Mucosal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2017-08-28"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2018,
+          "trial_count": 25,
+          "citation_count": 25,
+          "citations": [
+            {
+              "nct_id": "NCT04193956",
+              "url": "https://clinicaltrials.gov/study/NCT04193956",
+              "title": "POINTING: Clinical Cohort Study of Patients With Melanoma and NSCLC Receiving Checkpoint Inhibitors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-08-01"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06400550",
+              "url": "https://clinicaltrials.gov/study/NCT06400550",
+              "title": "Identification of Metabolic Phenotypes Associated With Melanoma Metastasis",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2018-08-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2019,
+          "trial_count": 38,
+          "citation_count": 38,
+          "citations": [
+            {
+              "nct_id": "NCT04045691",
+              "url": "https://clinicaltrials.gov/study/NCT04045691",
+              "title": "Binimetinib Plus Encorafenib Real Life Investigation of Next Generation Melanoma Treatment",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-10-17"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04099446",
+              "url": "https://clinicaltrials.gov/study/NCT04099446",
+              "title": "A Non-Interventional Pilot Study to Explore the Skin Microbes in Skin Cancer",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2019-10"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2020,
+          "trial_count": 35,
+          "citation_count": 35,
+          "citations": [
+            {
+              "nct_id": "NCT04123678",
+              "url": "https://clinicaltrials.gov/study/NCT04123678",
+              "title": "DERM Health Economics Study",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-02-26"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT04314401",
+              "url": "https://clinicaltrials.gov/study/NCT04314401",
+              "title": "National Cancer Institute \"Cancer Moonshot Biobank\"",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2020-11-11"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2021,
+          "trial_count": 43,
+          "citation_count": 43,
+          "citations": [
+            {
+              "nct_id": "NCT05148455",
+              "url": "https://clinicaltrials.gov/study/NCT05148455",
+              "title": "Pregnancy-related Changes in Melanocytic Nevi",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-01-15"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05033678",
+              "url": "https://clinicaltrials.gov/study/NCT05033678",
+              "title": "Implementation of Teledermoscopy and Artificial Intelligence",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2021-08-16"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2022,
+          "trial_count": 47,
+          "citation_count": 47,
+          "citations": [
+            {
+              "nct_id": "NCT06557291",
+              "url": "https://clinicaltrials.gov/study/NCT06557291",
+              "title": "Relapse-Free Survival With Adjuvant Dabrafenib/Trametinib Therapy in Patients With BRAF V600-mutated Stage III/IV Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-10-04"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05463510",
+              "url": "https://clinicaltrials.gov/study/NCT05463510",
+              "title": "Dermoscopic Monitoring of Pediatric Melanocytic Nevi Regarding Pattern and Diameter Changes",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2022-03-25"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2023,
+          "trial_count": 34,
+          "citation_count": 34,
+          "citations": [
+            {
+              "nct_id": "NCT05812027",
+              "url": "https://clinicaltrials.gov/study/NCT05812027",
+              "title": "A Screening Study to Collect Samples for TAA, HLA & HLA Loss of Heterozygosity in Patients With Metastatic Solid Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-06-26"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT05600933",
+              "url": "https://clinicaltrials.gov/study/NCT05600933",
+              "title": "Prospective Procurement of Tumor Tissue to Identify Novel Therapeutic Targets and Study the Tumor Microenvironment",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2023-05-15"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2024,
+          "trial_count": 35,
+          "citation_count": 35,
+          "citations": [
+            {
+              "nct_id": "NCT06654999",
+              "url": "https://clinicaltrials.gov/study/NCT06654999",
+              "title": "How Consistent is the Output of DERM, When Used to Assess Images of Potentially Cancerous Skin Lesions.",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-12-18"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT06523816",
+              "url": "https://clinicaltrials.gov/study/NCT06523816",
+              "title": "Dermoscopy and Histopathology in Non-melanocytic Skin Tumors",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2024-10-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2025,
+          "trial_count": 41,
+          "citation_count": 41,
+          "citations": [
+            {
+              "nct_id": "NCT06831071",
+              "url": "https://clinicaltrials.gov/study/NCT06831071",
+              "title": "Evaluation of Hypoxia in Primary Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-04-09"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07046728",
+              "url": "https://clinicaltrials.gov/study/NCT07046728",
+              "title": "Efficay and Safety of DAROMUN on Patient Treated by Intralesionnal Injection: DAROMEL",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2025-07-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        },
+        {
+          "year": 2026,
+          "trial_count": 18,
+          "citation_count": 18,
+          "citations": [
+            {
+              "nct_id": "NCT07338968",
+              "url": "https://clinicaltrials.gov/study/NCT07338968",
+              "title": "A Long-Term Follow-Up Study of Subjects Completing the AU-011-301(CoMpass) for Early Choroidal Melanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-03-27"
+                }
+              ]
+            },
+            {
+              "nct_id": "NCT07293598",
+              "url": "https://clinicaltrials.gov/study/NCT07293598",
+              "title": "Investigation of the ROle of faT and inflAmmaTory Cells in mElanoma",
+              "excerpts": [
+                {
+                  "field": "protocolSection.statusModule.startDateStruct.date",
+                  "text": "2026-01"
+                }
+              ]
+            }
+          ],
+          "phase": "Unknown"
+        }
+      ],
+      "options": {
+        "orientation": null,
+        "stacked": false,
+        "time_granularity": "year",
+        "x_scale": null,
+        "y_scale": null,
+        "layout": null,
+        "bipartite": null
+      }
+    },
+    "meta": {
+      "query": "How many melanoma trials started each year since 2015 by phase?",
+      "source": "clinicaltrials.gov",
+      "source_api": "https://clinicaltrials.gov/api/v2/studies",
+      "filters": {
+        "condition": "melanoma",
+        "start_year_min": 2015,
+        "start_year_max": 2026
+      },
+      "interpretation": {
+        "planner": "llm",
+        "intent": "time_trend",
+        "rationale": "Show annual counts of trials whose start date is in each year since 2015, broken down by trial phase.",
+        "model": "gpt-5-mini",
+        "escalated": false,
+        "escalation_reason": null,
+        "plan": {
+          "intent": "time_trend",
+          "group_by": "start_year",
+          "series_by": "phase",
+          "filters": {
+            "condition": "melanoma",
+            "start_year_min": 2015,
+            "start_year_max": 2026
+          },
+          "cohorts": [],
+          "chart_type": "time_series",
+          "top_n": 15,
+          "rationale": "Show annual counts of trials whose start date is in each year since 2015, broken down by trial phase."
+        },
+        "adjustments": [],
+        "llm_trace": [
+          {
+            "model": "gpt-5-mini",
+            "outcome": "accepted",
+            "latency_ms": 4000,
+            "input_tokens": 2719,
+            "output_tokens": 338,
+            "reasoning_tokens": 64,
+            "confidence": "high",
+            "cost_usd": 0.00078
+          }
+        ]
+      },
+      "coverage": [
+        {
+          "label": "Melanoma · started 2015–2026",
+          "total_matching": 2167,
+          "analyzed": 2167,
+          "truncated": false,
+          "api_params": {
+            "query.cond": "melanoma",
+            "filter.advanced": "AREA[StartDate]RANGE[2015-01-01,2026-12-31]"
+          }
+        }
+      ],
+      "counting_rule": "Each trial is counted exactly once, under its start year.",
+      "sort": "year ascending; years with no trials are included with trial_count=0",
+      "units": {
+        "trial_count": "trials",
+        "percent": "% of analyzed trials in cohort"
+      },
+      "warnings": [],
+      "notes": [],
+      "generated_at": "2026-10-21T18:11:55+00:00",
+      "elapsed_ms": 5582,
+      "data_as_of": "2026-10-21"
+    }
+  }
+}
